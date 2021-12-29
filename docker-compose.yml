@@ -1,15 +1,35 @@
-version: "3.1"
+version: '3.9'
+
 services:
   uchetka_web:
-    image: httpd:latest
-  uchetka_db:
-    image: mariadb:latest
-  
-  php:
-   image: php:latest
-  
-  hconverter:
-    build: HniveToWebConverter
-  
-  web:
-    build: ucketka_bav
+    image: php:7.2-apache
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - ./infoinpacts:/var/www/html
+
+  db:
+    image: mysql:latest
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: new_base
+    ports:
+      - 3306:3306
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: pma
+    links:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: unless-stopped
+    ports:
+      - 8081:80
+volumes:
+
+  dbdata:
