@@ -1,0 +1,134 @@
+{
+    "Case": {
+        "rootId": "kZ5qnHUB2Uh4lTjhC43B",
+        "requestId": "e8cf0fd706f9908c:3d0d9669:17598dc8935:-8000:42046",
+        "details": {
+            "summary": "Попытки загрузки скрипта Mozi.m",
+            "resolutionStatus": "TruePositive",
+            "customFields": {
+                "eventNumber": {
+                    "number": null,
+                    "order": 2
+                },
+                "innerLetter": {
+                    "string": null,
+                    "order": 4
+                },
+                "externalLetter": {
+                    "string": null,
+                    "order": 3
+                },
+                "typeAttack": {
+                    "string": null,
+                    "order": 1
+                }
+            },
+            "metrics": {},
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        },
+        "operation": "Update",
+        "objectId": "kZ5qnHUB2Uh4lTjhC43B",
+        "startDate": 1604668679284,
+        "objectType": "case",
+        "base": true,
+        "object": {
+            "flag": false,
+            "endDate": 1604668678310,
+            "customFields": {
+                "eventNumber": {
+                    "number": null,
+                    "order": 2
+                },
+                "innerLetter": {
+                    "string": null,
+                    "order": 4
+                },
+                "externalLetter": {
+                    "string": null,
+                    "order": 3
+                },
+                "typeAttack": {
+                    "string": null,
+                    "order": 1
+                }
+            },
+            "description": "Нейросеть\n  \n#### Merged with alert #TSK-MSK-999-ZPM-20201106-14720 Атака обнаружена с помощью нейросети с 116.68.99.25\n\n## Данная задача создана автоматически\n\n Причина: Атака обнаружена с помощью нейросети\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201106-14720)\n\n Время начала: 2020-11-06 00:57:42\n\n Время окончания: 2020-11-06 00:57:42\n\n Продолжительность воздействий: 0:00:00\n\n 2025576: ET EXPLOIT HackingTrio UA (Hello, World)\n\n 2016683: ET WEB_SERVER WebShell Generic - wget http - POST\n\n 46624: SERVER-WEBAPP GPON Router authentication bypass and command injection attempt\n\n 2024930: ET WEB_SERVER 401TRG Generic Webshell Request - POST with wget in body\n\n IP из домашней подсети: 95.173.136.163\n\n IP из внешней подсети: 116.68.99.25\n  \n#### Merged with alert #TSK-MSK-999-ZPM-20201106-14722 Атака обнаружена с помощью нейросети с 41.86.18.154\n\n## Данная задача создана автоматически\n\n Причина: Атака обнаружена с помощью нейросети\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201106-14722)\n\n Время начала: 2020-11-06 00:36:46\n\n Время окончания: 2020-11-06 00:36:46\n\n Продолжительность воздействий: 0:00:00\n\n 2025576: ET EXPLOIT HackingTrio UA (Hello, World)\n\n 2016683: ET WEB_SERVER WebShell Generic - wget http - POST\n\n 46624: SERVER-WEBAPP GPON Router authentication bypass and command injection attempt\n\n 2024930: ET WEB_SERVER 401TRG Generic Webshell Request - POST with wget in body\n\n IP из домашней подсети: 95.173.130.113\n\n IP из внешней подсети: 41.86.18.154\n  \n#### Merged with alert #TSK-MSK-999-ZPM-20201106-14724 Атака обнаружена с помощью нейросети с 202.164.138.177\n\n## Данная задача создана автоматически\n\n Причина: Атака обнаружена с помощью нейросети\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201106-14724)\n\n Время начала: 2020-11-06 02:27:33\n\n Время окончания: 2020-11-06 02:27:33\n\n Продолжительность воздействий: 0:00:00\n\n 2025576: ET EXPLOIT HackingTrio UA (Hello, World)\n\n 2016683: ET WEB_SERVER WebShell Generic - wget http - POST\n\n 46624: SERVER-WEBAPP GPON Router authentication bypass and command injection attempt\n\n 2024930: ET WEB_SERVER 401TRG Generic Webshell Request - POST with wget in body\n\n IP из домашней подсети: 95.173.132.19\n\n IP из внешней подсети: 202.164.138.177\n  \n#### Merged with alert #TSK-MSK-999-ZPM-20201106-14726 Атака обнаружена с помощью нейросети с 182.121.157.60\n\n## Данная задача создана автоматически\n\n Причина: Атака обнаружена с помощью нейросети\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201106-14726)\n\n Время начала: 2020-11-06 02:32:46\n\n Время окончания: 2020-11-06 02:32:46\n\n Продолжительность воздействий: 0:00:00\n\n 2025576: ET EXPLOIT HackingTrio UA (Hello, World)\n\n 2016683: ET WEB_SERVER WebShell Generic - wget http - POST\n\n 46624: SERVER-WEBAPP GPON Router authentication bypass and command injection attempt\n\n 2024930: ET WEB_SERVER 401TRG Generic Webshell Request - POST with wget in body\n\n IP из домашней подсети: 95.173.130.105\n\n IP из внешней подсети: 182.121.157.60",
+            "title": "Попытки загрузки скрипта Mozi.m",
+            "createdAt": 1604646996050,
+            "_parent": null,
+            "caseId": 2077,
+            "id": "kZ5qnHUB2Uh4lTjhC43B",
+            "_version": 21,
+            "pap": 2,
+            "updatedAt": 1604668678310,
+            "severity": 2,
+            "owner": "11c_mis",
+            "summary": "Попытки загрузки скрипта Mozi.m",
+            "_routing": "kZ5qnHUB2Uh4lTjhC43B",
+            "updatedBy": "33c_fds",
+            "_type": "case",
+            "tags": [
+                "ATs:sensor=10022",
+                "ATs:reason=Атака обнаружена с помощью нейросети",
+                "ATs:classtype:attempted-admin",
+                "ATs:classtype:bad-unknown",
+                "ATs:classtype:web-application-attack"
+            ],
+            "resolutionStatus": "TruePositive",
+            "createdBy": "11c_mis",
+            "tlp": 2,
+            "metrics": {},
+            "_id": "kZ5qnHUB2Uh4lTjhC43B",
+            "startDate": 1604647080000,
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        }
+    },
+    "Artifact": {
+        "_routing": "kZ5qnHUB2Uh4lTjhC43B",
+        "reports": {
+            "NCCCI_GeoIP_1_0": {
+                "taxonomies": [
+                    {
+                        "level": "safe",
+                        "namespace": "GeoIP",
+                        "predicate": "Country",
+                        "value": "Россия , ГосСОПКА"
+                    }
+                ]
+            },
+            "ZPMSig_1_0": {
+                "taxonomies": [
+                    {
+                        "level": "suspicious",
+                        "namespace": "ZPM_Sensor",
+                        "predicate": "Status",
+                        "value": "offline"
+                    }
+                ]
+            },
+            "NCCCI_RVISION_1_0": {}
+        },
+        "updatedBy": "11c_mis",
+        "data": "1002:95.173.136.163",
+        "dataType": "ip_home",
+        "_type": "case_artifact",
+        "sighted": false,
+        "message": "ip-адрес из домашней подсети",
+        "tags": [
+            "src:SnortAlert"
+        ],
+        "createdAt": 1604646999035,
+        "_parent": "kZ5qnHUB2Uh4lTjhC43B",
+        "createdBy": "11c_mis",
+        "tlp": 2,
+        "_id": "eda8e7fddc66db04430c38f91bee6254",
+        "id": "eda8e7fddc66db04430c38f91bee6254",
+        "ioc": false,
+        "_version": 9,
+        "startDate": 1604646999035,
+        "updatedAt": 1604659277079,
+        "status": "Ok"
+    }
+}

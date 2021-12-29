@@ -1,0 +1,10 @@
+#ucketka_bav/infoinpacts/
+#apache_config/
+#mysql_config/
+#HiveToWebConverter/the_hive_to_web_converter/
+#HiveToWebConverter/requirements.txt
+
+#как_отключить_строгую_проверку_в_mysql.txt
+#*.sql
+#*.zip
+#.gitignore

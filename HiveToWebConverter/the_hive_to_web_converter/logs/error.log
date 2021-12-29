@@ -1,0 +1,270 @@
+2021-07-01 17:30:02,071 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1625148582_2021_07_01_17_09_42_~1083441296.case.txt list index out of range
+2021-07-06 09:00:04,636 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1625501470_2021_07_05_19_11_10_~1770094792.case.txt list index out of range
+2021-07-06 09:00:06,483 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1625501929_2021_07_05_19_18_49_~1027350744.case.txt list index out of range
+2021-07-06 15:00:03,399 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1625571984_2021_07_06_14_46_24_~1027350744.case.txt list index out of range
+2021-07-06 15:00:06,168 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1625572028_2021_07_06_14_47_08_~1027350744.case.txt list index out of range
+2021-07-07 12:30:02,225 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625650495_2021_07_07_12_34_55_~1059676296.case.txt Кейс № 6117 - в json-документе отсутствует поле  class-attack
+2021-07-07 13:00:02,159 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625651197_2021_07_07_12_46_37_~1173217320.case.txt Кейс № 6119 - в json-документе отсутствует поле  class-attack
+2021-07-08 09:00:01,866 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625674371_2021_07_07_19_12_51_~1683595496.case.txt Кейс № 6136 - в json-документе отсутствует поле  class-attack
+2021-07-08 09:00:07,650 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625682735_2021_07_07_21_32_15_~1315024984.case.txt Кейс № 6145 - в json-документе отсутствует поле  class-attack
+2021-07-09 12:00:04,285 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1625821249_2021_07_09_12_00_49_~1120534736.case.txt list index out of range
+2021-07-09 12:30:05,029 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1625822474_2021_07_09_12_21_14_~1078947944.case.txt list index out of range
+2021-07-12 08:39:51,503 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625903208_2021_07_10_10_46_48_~1352220760.case.txt Кейс № 6307 - в json-документе отсутствует поле  class-attack
+2021-07-12 08:39:51,830 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625905070_2021_07_10_11_17_50_~1106391040.case.txt Кейс № 6308 - в json-документе отсутствует поле  class-attack
+2021-07-12 08:39:58,041 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625928580_2021_07_10_17_49_40_~1107812352.case.txt Кейс № 6316 - в json-документе отсутствует поле  class-attack
+2021-07-12 08:39:59,884 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625929878_2021_07_10_18_11_18_~1353977944.case.txt Кейс № 6317 - в json-документе отсутствует поле  class-attack
+2021-07-12 08:40:00,195 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625933779_2021_07_10_19_16_19_~1272467536.case.txt Кейс № 6318 - в json-документе отсутствует поле  class-attack
+2021-07-12 08:40:04,866 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625972307_2021_07_11_05_58_27_~1356300440.case.txt Кейс № 6331 - в json-документе отсутствует поле  class-attack
+2021-07-12 08:40:06,697 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1625973613_2021_07_11_06_20_13_~1770402024.case.txt Кейс № 6332 - в json-документе отсутствует поле  class-attack
+2021-07-15 09:00:05,022 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1626290235_2021_07_14_22_17_15_~1126850616.case.txt Кейс № 6530 - в json-документе отсутствует поле  class-attack
+2021-07-16 08:11:34,210 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1626374699_2021_07_15_21_44_59_~1194364952.case.txt list index out of range
+2021-07-16 08:11:36,111 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1626407975_2021_07_16_06_59_35_~1404575832.case.txt list index out of range
+2021-07-20 10:00:08,304 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1626757618_2021_07_20_08_06_58_~1251360768.case.txt list index out of range
+2021-07-20 15:30:04,444 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1626784089_2021_07_20_15_28_09_~1240113232.case.txt list index out of range
+2021-07-21 17:01:07,443 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1626876478_2021_07_21_17_07_58_~1323970600.case.txt list index out of range
+2021-07-26 15:00:02,615 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627299716_2021_07_26_14_41_56_~1431515136.case.txt list index out of range
+2021-07-26 16:00:01,919 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627302273_2021_07_26_15_24_33_~1647345672.case.txt list index out of range
+2021-07-26 16:00:02,241 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627302354_2021_07_26_15_25_54_~1647345672.case.txt list index out of range
+2021-07-27 09:00:16,522 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1627360096_2021_07_27_07_28_16_~1489195040.case.txt Кейс № 7141 - в json-документе отсутствует поле  class-attack
+2021-07-27 09:04:22,273 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1627360866_2021_07_27_07_41_06_~2076946560.case.txt Кейс № 7142 - в json-документе отсутствует поле  class-attack
+2021-07-27 09:04:25,346 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627364479_2021_07_27_08_41_19_~1889951976.case.txt list index out of range
+2021-07-28 09:30:27,959 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627452567_2021_07_28_09_09_27_~2063200384.case.txt list index out of range
+2021-07-29 16:00:02,772 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627563617_2021_07_29_16_00_17_~1707598056.case.txt list index out of range
+2021-07-30 13:03:07,604 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627638825_2021_07_30_12_53_45_~1322467544.case.txt list index out of range
+2021-07-30 16:30:02,208 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627652026_2021_07_30_16_33_46_~1396621464.case.txt Кейс № 7304 - в данном кейсе отстутствуют ip-адреса
+2021-08-02 11:30:02,602 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627892704_2021_08_02_11_25_04_~1555189800.case.txt list index out of range
+2021-08-02 12:30:04,293 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627896196_2021_08_02_12_23_16_~1246269648.case.txt list index out of range
+2021-08-03 09:00:05,140 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627928697_2021_08_02_21_24_57_~1396383952.case.txt list index out of range
+2021-08-03 09:00:09,676 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627929986_2021_08_02_21_46_26_~1396383952.case.txt list index out of range
+2021-08-03 09:00:23,530 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1627966654_2021_08_03_07_57_34_~1555189800.case.txt Кейс № 7444 - в данном кейсе отстутствуют ip-адреса
+2021-08-04 11:30:02,480 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1628065706_2021_08_04_11_28_26_~1443991760.case.txt Кейс № 7578 - в json-документе отсутствует поле  class-attack
+2021-08-04 11:30:09,781 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1628065807_2021_08_04_11_30_07_~1106956400.case.txt list index out of range
+2021-08-09 09:00:46,875 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1628485027_2021_08_09_07_57_07_~1783324720.case.txt list index out of range
+2021-08-09 09:00:48,415 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1628485060_2021_08_09_07_57_40_~1585287184.case.txt list index out of range
+2021-08-10 10:30:06,330 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1628579934_2021_08_10_10_18_54_~1591484432.case.txt list index out of range
+2021-08-10 12:00:02,584 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1628586232_2021_08_10_12_03_52_~1803968560.case.txt Кейс № 7936 - в данном кейсе отстутствуют ip-адреса
+2021-08-13 14:30:02,389 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1628853629_2021_08_13_14_20_29_~1395314800.case.txt Кейс № 8100 - в данном кейсе отстутствуют ip-адреса
+2021-08-16 09:00:19,367 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629003026_2021_08_15_07_50_26_~1973579976.case.txt list index out of range
+2021-08-16 09:00:20,898 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629003244_2021_08_15_07_54_04_~1492566040.case.txt list index out of range
+2021-08-16 09:00:23,375 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629004649_2021_08_15_08_17_29_~1240215616.case.txt list index out of range
+2021-08-16 09:00:29,324 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629086949_2021_08_16_07_09_09_~1629929472.case.txt list index out of range
+2021-08-18 09:00:09,366 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629238335_2021_08_18_01_12_15_~1612296344.case.txt list index out of range
+2021-08-18 17:00:14,816 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629295096_2021_08_18_16_58_16_~1522343960.case.txt list index out of range
+2021-08-19 09:00:03,256 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629307375_2021_08_18_20_22_55_~1210142888.case.txt list index out of range
+2021-08-19 09:30:03,677 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629353878_2021_08_19_09_17_58_~1630961816.case.txt list index out of range
+2021-08-19 12:00:02,377 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629362328_2021_08_19_11_38_48_~1640108176.case.txt Кейс № 8385 - в данном кейсе отстутствуют ip-адреса
+2021-08-19 12:00:04,002 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629362505_2021_08_19_11_41_45_~1190240432.case.txt Кейс № 8386 - в данном кейсе отстутствуют ip-адреса
+2021-08-20 09:00:05,632 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629435253_2021_08_20_07_54_13_~2052513992.case.txt list index out of range
+2021-08-20 16:00:02,310 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629464338_2021_08_20_15_58_58_~1725472984.case.txt list index out of range
+2021-08-23 16:00:13,184 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629723123_2021_08_23_15_52_03_~1886035984.case.txt list index out of range
+2021-08-24 09:00:07,193 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1629780848_2021_08_24_07_54_08_~1358385344.case.txt Кейс № 8561 - в json-документе отсутствует поле  class-attack
+2021-08-24 09:00:11,199 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1629781580_2021_08_24_08_06_20_~1645498576.case.txt Кейс № 8562 - в json-документе отсутствует поле  class-attack
+2021-08-24 09:00:12,737 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1629781790_2021_08_24_08_09_50_~1728057592.case.txt Кейс № 8563 - в json-документе отсутствует поле  class-attack
+2021-08-24 09:00:15,216 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1629782234_2021_08_24_08_17_14_~1277296816.case.txt Кейс № 8564 - в json-документе отсутствует поле  class-attack
+2021-08-24 09:00:38,148 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1629782280_2021_08_24_08_18_00_~1645498576.case.txt Кейс № 8562 - в json-документе отсутствует поле  class-attack
+2021-08-24 09:00:39,683 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1629782292_2021_08_24_08_18_12_~1358385344.case.txt Кейс № 8561 - в json-документе отсутствует поле  class-attack
+2021-08-25 18:00:02,200 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629902598_2021_08_25_17_43_18_~1802277008.case.txt list index out of range
+2021-08-26 09:00:08,619 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629925321_2021_08_26_00_02_01_~1518469232.case.txt list index out of range
+2021-08-26 09:00:16,840 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629952927_2021_08_26_07_42_07_~1518469232.case.txt list index out of range
+2021-08-26 18:00:01,548 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1629990300_2021_08_26_18_05_00_~1930125352.case.txt Кейс № 8658 - не содержит номеров сигнатур snort
+2021-08-30 09:00:34,661 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630213392_2021_08_29_08_03_12_~1782354128.case.txt list index out of range
+2021-08-30 09:00:35,916 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630226098_2021_08_29_11_34_58_~1802277008.case.txt list index out of range
+2021-08-30 09:01:02,359 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630297141_2021_08_30_07_19_01_~1090695288.case.txt list index out of range
+2021-08-30 10:30:04,571 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630308137_2021_08_30_10_22_17_~1809244368.case.txt list index out of range
+2021-08-30 17:00:04,824 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630332205_2021_08_30_17_03_25_~1276592160.case.txt list index out of range
+2021-08-30 17:00:06,348 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630332261_2021_08_30_17_04_21_~1276592160.case.txt list index out of range
+2021-08-31 09:01:08,388 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630338154_2021_08_30_18_42_34_~1327542512.case.txt list index out of range
+2021-08-31 09:01:09,020 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630338372_2021_08_30_18_46_12_~1806192656.case.txt list index out of range
+2021-08-31 09:06:12,409 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630338658_2021_08_30_18_50_58_~1278374064.case.txt list index out of range
+2021-09-02 18:30:02,658 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630595378_2021_09_02_18_09_38_~2706657408.case.txt list index out of range
+2021-09-03 07:00:06,419 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630599429_2021_09_02_19_17_09_~1640124440.case.txt list index out of range
+2021-09-03 07:00:24,705 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1630615075_2021_09_02_23_37_55_~1645248624.case.txt list index out of range
+2021-09-08 08:30:02,900 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631077730_2021_09_08_08_08_50_~2017292368.case.txt list index out of range
+2021-09-08 13:00:03,872 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631095308_2021_09_08_13_01_48_~1802277008.case.txt list index out of range
+2021-09-09 07:00:03,024 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631119865_2021_09_08_19_51_05_~2161451008.case.txt list index out of range
+2021-09-09 07:00:10,669 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631133794_2021_09_08_23_43_14_~2161451008.case.txt list index out of range
+2021-09-10 07:30:10,370 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631247798_2021_09_10_07_23_18_~1933549672.case.txt list index out of range
+2021-09-13 07:01:46,565 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631475309_2021_09_12_22_35_09_~1575272688.case.txt list index out of range
+2021-09-14 14:30:02,943 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631618375_2021_09_14_14_19_35_~2335395856.case.txt list index out of range
+2021-09-15 07:00:06,288 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631642266_2021_09_14_20_57_46_~2049228952.case.txt list index out of range
+2021-09-15 07:00:08,747 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631642413_2021_09_14_21_00_13_~2335395856.case.txt list index out of range
+2021-09-15 07:00:30,278 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631653483_2021_09_15_00_04_43_~2377064464.case.txt list index out of range
+2021-09-15 07:00:38,287 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631653574_2021_09_15_00_06_14_~2910052480.case.txt list index out of range
+2021-09-15 07:00:44,103 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631656814_2021_09_15_01_00_14_~2049228952.case.txt list index out of range
+2021-09-15 07:00:45,971 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631659220_2021_09_15_01_40_20_~2344558672.case.txt list index out of range
+2021-09-15 07:00:51,741 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631659920_2021_09_15_01_52_00_~2344558672.case.txt list index out of range
+2021-09-17 07:00:02,589 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631807302_2021_09_16_18_48_22_~1581388016.case.txt list index out of range
+2021-09-17 07:00:10,978 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631824214_2021_09_16_23_30_14_~2130063496.case.txt list index out of range
+2021-09-17 07:00:13,142 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631850828_2021_09_17_06_53_48_~2067013776.case.txt list index out of range
+2021-09-20 07:00:23,824 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1631995949_2021_09_18_23_12_29_~2998313088.case.txt list index out of range
+2021-09-21 07:00:10,225 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632163817_2021_09_20_21_50_17_~1925419096.case.txt list index out of range
+2021-09-21 08:00:05,678 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632199398_2021_09_21_07_43_18_~3036979328.case.txt list index out of range
+2021-09-21 08:00:16,593 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632199455_2021_09_21_07_44_15_~1899749616.case.txt list index out of range
+2021-09-21 10:30:03,200 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632208957_2021_09_21_10_22_37_~2341138432.case.txt list index out of range
+2021-09-21 11:00:03,053 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632210764_2021_09_21_10_52_44_~2341138432.case.txt list index out of range
+2021-09-21 18:00:04,510 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632236226_2021_09_21_17_57_06_~2147283184.case.txt list index out of range
+2021-09-22 11:00:01,798 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632296974_2021_09_22_10_49_34_~2922909824.case.txt list index out of range
+2021-09-22 17:30:01,668 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632320162_2021_09_22_17_16_02_~2378518672.case.txt Кейс № 9878 - в данном кейсе отстутствуют ip-адреса
+2021-09-27 07:00:24,706 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632567339_2021_09_25_13_55_39_~1666347128.case.txt list index out of range
+2021-09-27 07:00:39,934 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632593970_2021_09_25_21_19_30_~2688700496.case.txt list index out of range
+2021-09-27 07:00:48,553 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632631667_2021_09_26_07_47_47_~2688700496.case.txt list index out of range
+2021-09-27 07:00:49,173 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632633555_2021_09_26_08_19_15_~3187396736.case.txt list index out of range
+2021-10-01 12:11:43,438 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632918336_2021_09_29_15_25_36_~2551128080.case.txt list index out of range
+2021-10-01 12:11:54,417 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1632923178_2021_09_29_16_46_18_~1888907448.case.txt Кейс № 10076 - в json-документе отсутствует поле  details
+2021-10-01 12:12:00,357 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632950350_2021_09_30_00_19_10_~1861459992.case.txt list index out of range
+2021-10-01 12:12:10,768 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632976306_2021_09_30_07_31_46_~1933746360.case.txt list index out of range
+2021-10-01 12:12:11,386 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632985450_2021_09_30_10_04_10_~1951346872.case.txt list index out of range
+2021-10-01 12:12:12,935 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632989606_2021_09_30_11_13_26_~1859035192.case.txt list index out of range
+2021-10-01 12:12:13,563 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632989784_2021_09_30_11_16_24_~1666809880.case.txt list index out of range
+2021-10-01 12:12:14,180 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632991264_2021_09_30_11_41_04_~1865461784.case.txt list index out of range
+2021-10-01 12:12:15,128 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632992588_2021_09_30_12_03_08_~2520961160.case.txt list index out of range
+2021-10-01 12:12:15,443 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632992731_2021_09_30_12_05_31_~1950802104.case.txt list index out of range
+2021-10-01 12:17:55,900 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632993252_2021_09_30_12_14_12_~1951600824.case.txt list index out of range
+2021-10-01 12:17:56,822 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632994426_2021_09_30_12_33_46_~3381133440.case.txt list index out of range
+2021-10-01 12:17:57,147 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632995022_2021_09_30_12_43_42_~2521030792.case.txt Кейс № 10180 - в данном кейсе отстутствуют ip-адреса
+2021-10-01 12:17:57,770 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632995267_2021_09_30_12_47_47_~1859084344.case.txt list index out of range
+2021-10-01 12:17:58,084 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632995430_2021_09_30_12_50_30_~3239436520.case.txt list index out of range
+2021-10-01 12:17:58,387 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632995522_2021_09_30_12_52_02_~1950859448.case.txt list index out of range
+2021-10-01 12:17:58,704 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632995659_2021_09_30_12_54_19_~2520899720.case.txt list index out of range
+2021-10-01 12:17:59,007 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632995906_2021_09_30_12_58_26_~1951240376.case.txt list index out of range
+2021-10-01 12:17:59,312 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996055_2021_09_30_13_00_55_~3239383272.case.txt list index out of range
+2021-10-01 12:18:00,248 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996079_2021_09_30_13_01_19_~2520473800.case.txt list index out of range
+2021-10-01 12:18:00,560 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996080_2021_09_30_13_01_20_~2520977544.case.txt list index out of range
+2021-10-01 12:18:00,857 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996141_2021_09_30_13_02_21_~3381428352.case.txt list index out of range
+2021-10-01 12:18:01,172 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996157_2021_09_30_13_02_37_~1865564184.case.txt list index out of range
+2021-10-01 12:18:01,484 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996166_2021_09_30_13_02_46_~1865576472.case.txt Кейс № 10200 - в данном кейсе отстутствуют ip-адреса
+2021-10-01 12:18:01,806 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996202_2021_09_30_13_03_22_~1951854776.case.txt list index out of range
+2021-10-01 12:18:02,119 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996239_2021_09_30_13_03_59_~3381108864.case.txt list index out of range
+2021-10-01 12:18:02,742 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632996679_2021_09_30_13_11_19_~1951695032.case.txt list index out of range
+2021-10-01 12:18:03,678 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632997354_2021_09_30_13_22_34_~3239108840.case.txt list index out of range
+2021-10-01 12:18:03,983 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632997676_2021_09_30_13_27_56_~1950933176.case.txt Кейс № 10160 - в данном кейсе отстутствуют ip-адреса
+2021-10-01 12:18:08,208 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632998048_2021_09_30_13_34_08_~3239092456.case.txt list index out of range
+2021-10-01 12:18:08,521 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632998978_2021_09_30_13_49_38_~1543123136.case.txt list index out of range
+2021-10-01 12:18:09,446 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1632999453_2021_09_30_13_57_33_~1865281560.case.txt list index out of range
+2021-10-01 12:18:09,760 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633000129_2021_09_30_14_08_49_~3239567592.case.txt list index out of range
+2021-10-01 17:30:02,035 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633097969_2021_10_01_17_19_29_~1432006752.case.txt list index out of range
+2021-10-04 07:00:18,771 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633196092_2021_10_02_20_34_52_~3437908096.case.txt list index out of range
+2021-10-04 14:30:03,266 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633346617_2021_10_04_14_23_37_~3381493992.case.txt list index out of range
+2021-10-05 07:00:01,972 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633361974_2021_10_04_18_39_34_~3381493992.case.txt list index out of range
+2021-10-05 08:30:11,768 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633412222_2021_10_05_08_37_02_~2594103496.case.txt list index out of range
+2021-10-06 07:00:05,904 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633455750_2021_10_05_20_42_30_~2227491000.case.txt list index out of range
+2021-10-06 07:00:10,755 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633456382_2021_10_05_20_53_02_~2606686408.case.txt list index out of range
+2021-10-06 07:00:11,683 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633456531_2021_10_05_20_55_31_~2227491000.case.txt list index out of range
+2021-10-06 07:00:12,910 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633465871_2021_10_05_23_31_11_~2227491000.case.txt list index out of range
+2021-10-06 09:30:18,903 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633501786_2021_10_06_09_29_46_~2191450296.case.txt list index out of range
+2021-10-07 08:00:05,498 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633582758_2021_10_07_07_59_18_~1962000408.case.txt list index out of range
+2021-10-11 07:00:29,984 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633773421_2021_10_09_12_57_01_~2734186704.case.txt list index out of range
+2021-10-11 07:01:42,121 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633810714_2021_10_09_23_18_34_~2655428744.case.txt list index out of range
+2021-10-11 07:01:49,133 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633873345_2021_10_10_16_42_25_~2655428744.case.txt list index out of range
+2021-10-11 07:03:54,911 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633873398_2021_10_10_16_43_18_~2655428744.case.txt list index out of range
+2021-10-11 07:03:57,365 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633873490_2021_10_10_16_44_50_~2661073032.case.txt list index out of range
+2021-10-11 07:03:59,256 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633890196_2021_10_10_21_23_16_~3514577024.case.txt list index out of range
+2021-10-11 07:04:20,690 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633922895_2021_10_11_06_28_15_~3514577024.case.txt list index out of range
+2021-10-11 08:00:03,136 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1633927878_2021_10_11_07_51_18_~2655428744.case.txt list index out of range
+2021-10-12 09:30:06,407 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634019832_2021_10_12_09_23_52_~2747994320.case.txt list index out of range
+2021-10-13 07:00:13,942 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634096802_2021_10_13_06_46_42_~2054021144.case.txt list index out of range
+2021-10-14 07:00:03,831 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1634142148_2021_10_13_19_22_28_~2076143640.case.txt Кейс № 10660 - в json-документе отсутствует поле  class-attack
+2021-10-15 08:02:01,239 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634223412_2021_10_14_14_56_52_~2734186704.case.txt list index out of range
+2021-10-15 08:02:11,583 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634224239_2021_10_14_15_10_39_~2054021144.case.txt list index out of range
+2021-10-18 07:00:40,712 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634464292_2021_10_17_09_51_32_~3620679808.case.txt list index out of range
+2021-10-18 07:01:12,141 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634464334_2021_10_17_09_52_14_~2064662552.case.txt list index out of range
+2021-10-18 07:01:39,707 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634476335_2021_10_17_13_12_15_~2493808784.case.txt list index out of range
+2021-10-18 07:01:45,509 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634490267_2021_10_17_17_04_27_~3620679808.case.txt list index out of range
+2021-10-18 08:00:02,729 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634533366_2021_10_18_05_02_46_~2207494368.case.txt list index out of range
+2021-10-18 11:30:02,143 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634544635_2021_10_18_08_10_35_~1846042744.case.txt list index out of range
+2021-10-19 10:00:09,851 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634627183_2021_10_19_10_06_23_~2302742584.case.txt list index out of range
+2021-10-19 18:30:08,809 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634657802_2021_10_19_15_36_42_~2518167712.case.txt list index out of range
+2021-10-20 16:30:02,785 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634735795_2021_10_20_13_16_35_~2299916400.case.txt list index out of range
+2021-10-21 08:30:04,015 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1634793959_2021_10_21_05_25_59_~2299916400.case.txt list index out of range
+2021-10-25 07:04:10,229 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1635070563_2021_10_24_10_16_03_~2158080064.case.txt Кейс № 11045 - в json-документе отсутствует поле  class-attack
+2021-10-25 08:00:35,937 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635138102_2021_10_25_05_01_42_~2516959480.case.txt list index out of range
+2021-10-25 11:30:03,471 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635150903_2021_10_25_08_35_03_~3902681216.case.txt list index out of range
+2021-10-25 12:00:05,432 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635151928_2021_10_25_08_52_08_~2179727424.case.txt list index out of range
+2021-10-28 07:00:03,809 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635364137_2021_10_27_19_48_57_~2912194608.case.txt list index out of range
+2021-10-29 07:30:03,309 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1635459087_2021_10_28_22_11_27_~2936197136.case.txt Кейс № 11527 - в json-документе отсутствует поле  class-attack
+2021-10-29 11:30:03,351 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1635495859_2021_10_29_08_24_19_~3090419912.case.txt Кейс № 11511 - в json-документе отсутствует поле  class-attack
+2021-10-29 12:30:02,972 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635499283_2021_10_29_09_21_23_~3942097024.case.txt list index out of range
+2021-10-29 13:30:03,769 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1635502224_2021_10_29_10_10_24_~2936197136.case.txt Кейс № 11527 - в json-документе отсутствует поле  class-attack
+2021-11-01 11:33:56,641 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635751641_2021_11_01_07_27_21_~2309480536.case.txt list index out of range
+2021-11-01 11:34:12,274 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635755409_2021_11_01_08_30_09_~3620679808.case.txt list index out of range
+2021-11-01 12:00:04,183 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635756079_2021_11_01_08_41_19_~2500063392.case.txt list index out of range
+2021-11-01 12:58:12,231 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635757295_2021_11_01_09_01_35_~2922127440.case.txt list index out of range
+2021-11-01 13:09:01,016 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635757351_2021_11_01_09_02_31_~3131420880.case.txt list index out of range
+2021-11-02 07:00:02,939 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635783947_2021_11_01_16_25_47_~2834555128.case.txt list index out of range
+2021-11-02 07:00:05,130 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635788305_2021_11_01_17_38_25_~2834555128.case.txt list index out of range
+2021-11-02 07:00:08,900 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635792770_2021_11_01_18_52_50_~2834555128.case.txt list index out of range
+2021-11-02 08:30:02,448 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635829758_2021_11_02_05_09_18_~3027333168.case.txt list index out of range
+2021-11-02 16:30:04,893 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1635859218_2021_11_02_13_20_18_~2804629632.case.txt list index out of range
+2021-11-08 15:12:24,402 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1636001234_2021_11_04_04_47_14_~2908786696.case.txt list index out of range
+2021-11-08 15:12:54,371 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1636175659_2021_11_06_05_14_19_~2331959472.case.txt list index out of range
+2021-11-08 15:12:58,663 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1636176561_2021_11_06_05_29_21_~3207766216.case.txt list index out of range
+2021-11-08 15:13:02,896 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1636176585_2021_11_06_05_29_45_~2815496408.case.txt list index out of range
+2021-11-09 08:30:03,522 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1636435147_2021_11_09_05_19_07_~2994688136.case.txt list index out of range
+2021-11-15 07:00:03,581 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1636748314_2021_11_12_20_18_34_~2668277872.case.txt list index out of range
+2021-11-15 18:00:03,398 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1636988193_2021_11_15_14_56_33_~4261773440.case.txt list index out of range
+2021-11-16 13:00:01,964 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637055666_2021_11_16_09_41_06_~3008598232.case.txt list index out of range
+2021-11-16 14:00:02,111 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637060033_2021_11_16_10_53_53_~2639913136.case.txt list index out of range
+2021-11-17 09:00:02,185 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637127643_2021_11_17_05_40_43_~2744905752.case.txt list index out of range
+2021-11-18 07:30:02,890 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637209399_2021_11_18_04_23_19_~2341879928.case.txt list index out of range
+2021-11-18 08:00:03,203 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637211245_2021_11_18_04_54_05_~3243921592.case.txt list index out of range
+2021-11-18 08:30:02,079 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637212457_2021_11_18_05_14_17_~2786545776.case.txt list index out of range
+2021-11-18 17:00:03,298 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637244414_2021_11_18_14_06_54_~2628534328.case.txt list index out of range
+2021-11-18 17:30:02,554 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637244720_2021_11_18_14_12_00_~2628534328.case.txt list index out of range
+2021-11-18 18:30:04,661 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637248229_2021_11_18_15_10_29_~3243921592.case.txt list index out of range
+2021-11-18 18:30:06,521 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637248593_2021_11_18_15_16_33_~3243921592.case.txt list index out of range
+2021-11-18 18:30:08,680 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637249053_2021_11_18_15_24_13_~3243921592.case.txt list index out of range
+2021-11-18 18:30:10,537 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637249194_2021_11_18_15_26_34_~3243921592.case.txt list index out of range
+2021-11-18 18:30:12,388 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637249296_2021_11_18_15_28_16_~3243921592.case.txt list index out of range
+2021-11-18 18:30:12,695 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637249379_2021_11_18_15_29_39_~2628534328.case.txt list index out of range
+2021-11-22 07:00:29,456 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637470976_2021_11_21_05_02_56_~3307143352.case.txt list index out of range
+2021-11-22 08:00:03,100 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637556524_2021_11_22_04_48_44_~3363336240.case.txt list index out of range
+2021-11-22 14:30:05,558 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637580748_2021_11_22_11_32_28_~3363336240.case.txt list index out of range
+2021-11-26 09:28:49,230 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637858202_2021_11_25_16_36_42_~2842984480.case.txt list index out of range
+2021-11-26 09:29:01,766 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637901715_2021_11_26_04_41_55_~3293134864.case.txt list index out of range
+2021-11-26 18:30:03,115 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637940249_2021_11_26_15_24_09_~2871869552.case.txt list index out of range
+2021-11-29 07:00:11,900 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637988102_2021_11_27_04_41_42_~2871103600.case.txt list index out of range
+2021-11-29 07:00:47,767 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1637989957_2021_11_27_05_12_37_~3032912024.case.txt list index out of range
+2021-11-29 07:01:03,809 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638083692_2021_11_28_07_14_52_~3217867000.case.txt list index out of range
+2021-11-29 07:01:12,233 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638110115_2021_11_28_14_35_15_~2975285248.case.txt list index out of range
+2021-11-29 07:01:14,081 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638115928_2021_11_28_16_12_08_~3217867000.case.txt list index out of range
+2021-11-29 18:30:02,557 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638198675_2021_11_29_15_11_15_~3686764744.case.txt list index out of range
+2021-11-30 08:30:02,757 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638249683_2021_11_30_05_21_23_~3686764744.case.txt list index out of range
+2021-11-30 13:30:02,652 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638267585_2021_11_30_10_19_45_~3686764744.case.txt list index out of range
+2021-12-01 13:30:22,123 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638344420_2021_12_01_07_40_20_~3322634248.case.txt list index out of range
+2021-12-01 13:30:22,448 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638344540_2021_12_01_07_42_20_~3322634248.case.txt list index out of range
+2021-12-02 08:00:02,979 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638420592_2021_12_02_04_49_52_~3078115328.case.txt list index out of range
+2021-12-02 08:00:03,611 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638420635_2021_12_02_04_50_35_~3074977896.case.txt list index out of range
+2021-12-02 09:30:02,054 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638426012_2021_12_02_06_20_12_~2917781616.case.txt list index out of range
+2021-12-02 11:00:02,206 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638431120_2021_12_02_07_45_20_~2499084408.case.txt Кейс № 12594 - в данном кейсе отстутствуют ip-адреса
+2021-12-02 11:00:03,476 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638431921_2021_12_02_07_58_41_~3113111624.case.txt list index out of range
+2021-12-03 07:00:06,055 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638475689_2021_12_02_20_08_09_~2868641880.case.txt list index out of range
+2021-12-03 08:00:07,329 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638506850_2021_12_03_04_47_30_~3645468920.case.txt list index out of range
+2021-12-03 08:00:08,253 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638506903_2021_12_03_04_48_23_~2990395448.case.txt list index out of range
+2021-12-03 08:30:05,292 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638508278_2021_12_03_05_11_18_~2665550016.case.txt list index out of range
+2021-12-03 08:30:19,423 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638508278_2021_12_03_05_11_18_~3277475992.case.txt list index out of range
+2021-12-06 07:01:07,382 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638643745_2021_12_04_18_49_05_~3197825024.case.txt list index out of range
+2021-12-06 07:02:41,797 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638680175_2021_12_05_04_56_15_~3197825024.case.txt list index out of range
+2021-12-08 07:00:04,745 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638910227_2021_12_07_20_50_27_~2908827720.case.txt list index out of range
+2021-12-08 08:30:06,434 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1638940345_2021_12_08_05_12_25_~4014112976.case.txt list index out of range
+2021-12-09 10:30:01,603 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639033905_2021_12_09_07_11_45_~2995810408.case.txt Кейс № 12746 - в данном кейсе отстутствуют ip-адреса
+2021-12-10 07:30:04,126 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639110957_2021_12_10_04_35_57_~4425343176.case.txt list index out of range
+2021-12-10 08:00:06,279 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639112608_2021_12_10_05_03_28_~3573870632.case.txt list index out of range
+2021-12-13 07:00:15,975 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639215159_2021_12_11_09_32_39_~3331706968.case.txt list index out of range
+2021-12-13 07:00:45,615 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639284036_2021_12_12_04_40_36_~4186775760.case.txt list index out of range
+2021-12-13 07:00:49,288 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639284051_2021_12_12_04_40_51_~4186775760.case.txt list index out of range
+2021-12-13 07:00:52,413 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639287971_2021_12_12_05_46_11_~3470278776.case.txt list index out of range
+2021-12-13 07:00:53,043 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639288125_2021_12_12_05_48_45_~3470278776.case.txt list index out of range
+2021-12-13 08:00:03,031 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639371100_2021_12_13_04_51_40_~3312074848.case.txt list index out of range
+2021-12-14 14:30:01,531 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639480764_2021_12_14_11_19_24_~3525177520.case.txt list index out of range
+2021-12-15 09:54:20,726 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639550090_2021_12_15_06_34_50_~2951262208.case.txt list index out of range
+2021-12-15 14:30:06,221 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639567567_2021_12_15_11_26_07_~5537497216.case.txt list index out of range
+2021-12-16 08:00:29,722 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639630137_2021_12_16_04_48_57_~5537497216.case.txt list index out of range
+2021-12-17 08:00:02,238 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639717454_2021_12_17_05_04_14_~4917276720.case.txt list index out of range
+2021-12-17 08:00:04,387 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639717500_2021_12_17_05_05_00_~4917350448.case.txt list index out of range
+2021-12-20 07:02:23,676 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639939804_2021_12_19_18_50_04_~5002231944.case.txt list index out of range
+2021-12-20 08:30:03,188 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639977663_2021_12_20_05_21_03_~4528001096.case.txt list index out of range
+2021-12-20 09:30:03,183 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1639980787_2021_12_20_06_13_07_~4528001096.case.txt list index out of range
+2021-12-21 15:00:01,747 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1640087513_2021_12_21_11_51_53_~4507738248.case.txt Кейс № 14558 - в данном кейсе отстутствуют ip-адреса
+2021-12-24 07:00:03,545 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1640277969_2021_12_23_16_46_09_~4434174032.case.txt list index out of range
+2021-12-24 08:00:08,441 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(106) - Файл: 1640320898_2021_12_24_04_41_38_~6148583552.case.txt list index out of range
+2021-12-24 08:00:20,681 - [ERROR] - __main__ - (_ftp.py).processing_remote_file(103) - Файл: 1640321615_2021_12_24_04_53_35_~5654937848.case.txt Кейс № 15012 - в json-документе отсутствует поле  class-attack

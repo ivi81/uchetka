@@ -1,0 +1,5 @@
+{
+    "TruePositive":{"NoImpact":1, "WithImpact":1},
+    "FalsePositive":2,
+    "Indeterminate":5
+}

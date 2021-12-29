@@ -1,0 +1,47 @@
+
+// Таблица основная 																						CASE:{
+CREATE TABLE IF NOT EXISTS `incident_chief_tables` (																	
+	id INT(9) UNSIGNED NOT NULL,			-- номер карточки инцидента
+	date_time_incident_start DATETIME NOT NULL, -- дата конца
+	date_time_incident_end DATETIME NOT NULL,	-- дата начала 
+	date_time_create INT NOT NULL,		-- дата создания
+	ip_src INT(10) UNSIGNED NOT NULL,	-- ip-источник
+	count_impact INT(10),			-- количество воздействий с каждого IP-адреса
+	ip_dst INT(10) UNSIGNED NOT NULL,	-- ip-назначения
+	type_attack TINYINT(3) NOT NULL, 	-- тип компьютерной атаки (в числовом виде, расшифровка в файле setup_site.xml)
+	country VARCHAR(2),			-- код страны
+	
+
+//Таблица дополнительная информация
+CREATE TABLE IF NOT EXISTS `incident_additional_tables` (
+	id INT(9) UNSIGNED NOT NULL,			-- номер карточки инцидента
+	login_name VARCHAR(20) NOT NULL, 		-- логин дежурного (в нашем случае пусть будет the_hive)
+	availability_host	TINYINT(2) UNSIGNED, 	-- доступность информационного ресурса 
+	direction_attack TINYINT(2) UNSIGNED NOT NULL, -- направление компьютерной атаки (число 1 или 2)
+	solution TEXT,					-- Решение дежурного (Пиисьмо в ЦИБ или что-то еще)
+	number_mail_in_CIB VARCHAR(35),		-- Номер письма в ЦИБ
+	number_mail_in_organization VARCHAR(35),	-- Номер письма в стороннюю организацию
+	space_safe TEXT NOT NULL,                      -- место хранения трафика (В нашем случае Case № )
+	explanation TEXT);				-- Пояснение дежурного
+	
+
+//Таблица  о сработавших сигнатурах и их количестве
+CREATE TABLE IF NOT EXISTS `incident_number_signature_tables` (
+	id INT(9) UNSIGNED NOT NULL,		-- номер карточки инцидента
+	sid INT(10) NOT NULL,			-- номер сигнатуры
+	count_alert INT(10),			-- количество срабатываний
+	);
+
+//Тавблица информация аналитика
+CREATE TABLE IF NOT EXISTS `incident_analyst_tables` (
+	id INT(9) UNSIGNED NOT NULL,		-- номер карточки инцидента
+	login_name VARCHAR(20) NOT NULL,	-- логин аналитика					  					  
+	true_false TINYINT(2) NOT NULL,	-- компьютерная атака или нет и пометка - нет трафика 
+						(0 - ложное срабатывание (false), 
+				       1 - компьютерная атака (true),
+				       2 - сетевого трафика по указанному пути 
+					не обнаружено)
+	count_alert_analyst INT,		-- количество срабатываний
+	information_analyst TEXT,		-- информация аналитика
+	date_time_analyst INT,			-- время анализа компьютерного воздействия
+	);											

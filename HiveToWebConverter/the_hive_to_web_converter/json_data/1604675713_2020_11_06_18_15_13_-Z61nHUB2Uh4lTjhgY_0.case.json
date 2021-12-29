@@ -1,0 +1,914 @@
+{
+    "Case": {
+        "rootId": "-Z61nHUB2Uh4lTjhgY_0",
+        "requestId": "e8cf0fd706f9908c:3d0d9669:17598dc8935:-8000:45422",
+        "details": {
+            "summary": "Попытки подбора авторизационных данных (Web: basic autorization)",
+            "resolutionStatus": "TruePositive",
+            "customFields": {
+                "eventNumber": {
+                    "order": 2
+                },
+                "typeAttack": {
+                    "order": 1
+                },
+                "booleanField": {
+                    "boolean": true,
+                    "order": 0
+                },
+                "innerLetter": {
+                    "order": 4
+                },
+                "classAttack": {
+                    "string": "BruteForce",
+                    "order": 9
+                },
+                "businessImpact": {
+                    "string": "HIGH",
+                    "order": 1
+                },
+                "occurDate": {
+                    "date": 1604638256000,
+                    "order": 2
+                },
+                "cvss": {
+                    "number": 9,
+                    "order": 3
+                },
+                "externalLetter": {
+                    "order": 3
+                }
+            },
+            "metrics": {},
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        },
+        "operation": "Update",
+        "objectId": "-Z61nHUB2Uh4lTjhgY_0",
+        "startDate": 1604675713183,
+        "objectType": "case",
+        "base": true,
+        "object": {
+            "flag": false,
+            "endDate": 1604675712487,
+            "customFields": {
+                "eventNumber": {
+                    "order": 2
+                },
+                "typeAttack": {
+                    "order": 1
+                },
+                "booleanField": {
+                    "boolean": true,
+                    "order": 0
+                },
+                "innerLetter": {
+                    "order": 4
+                },
+                "classAttack": {
+                    "string": "BruteForce",
+                    "order": 9
+                },
+                "businessImpact": {
+                    "string": "HIGH",
+                    "order": 1
+                },
+                "occurDate": {
+                    "date": 1604638256000,
+                    "order": 2
+                },
+                "cvss": {
+                    "number": 9,
+                    "order": 3
+                },
+                "externalLetter": {
+                    "order": 3
+                }
+            },
+            "description": "## Данная задача создана автоматически\n\n Причина: Обнаружен trojan, Обнаружена сигнатура 8 Центра\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201106-14728)\n\n Время начала: 2020-11-05 19:54:34\n\n Время окончания: 2020-11-06 07:33:54\n\n Продолжительность воздействий: 11:39:20\n\n 2025855: ET WEB_SPECIFIC_APPS Microhard Systems 3G/4G Cellular Ethernet and Serial Gateway - Default Credentials\n\n 2018131: ET WORM TheMoon.linksys.router 1\n\n 97000022: [NCCCI] SERVER-WEBAPP Multiple login attempts using basic authorization - Possible bruteforce\n\n IP из домашней подсети: 95.173.136.71, 95.173.136.79, 95.173.131.246, 95.173.136.171, 95.173.136.78, 95.173.136.163, 95.173.130.95, 95.173.136.173, 95.173.130.111, 95.173.130.11, 95.173.136.82, 95.173.136.72\n\n IP из внешней подсети: 213.200.42.2 \r\n \r\n 2020.11.06 11:38:54 - добавлен дамп трафика ftp://ftp.33c.rcm:21/pcaps/10022/1604651750_2020_11_06____11_35_50_634768.pcap",
+            "title": "Bruteforce c 213.200.42.2",
+            "createdAt": 1604651941500,
+            "_parent": null,
+            "caseId": 2079,
+            "id": "-Z61nHUB2Uh4lTjhgY_0",
+            "_version": 24,
+            "pap": 2,
+            "updatedAt": 1604675712487,
+            "severity": 3,
+            "owner": "33c_vpa",
+            "summary": "Попытки подбора авторизационных данных (Web: basic autorization)",
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "updatedBy": "33c_fds",
+            "_type": "case",
+            "tags": [
+                "ATs:sensor=10022",
+                "ATs:reason=Обнаружен trojan",
+                "ATs:reason=Обнаружена сигнатура 8 Центра",
+                "ATs:classtype:attempted-recon",
+                "ATs:classtype:trojan-activity",
+                "download_pcap"
+            ],
+            "resolutionStatus": "TruePositive",
+            "createdBy": "33c_vpa",
+            "tlp": 1,
+            "metrics": {},
+            "_id": "-Z61nHUB2Uh4lTjhgY_0",
+            "startDate": 1604638256000,
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        }
+    },
+    "Artifact": [
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.78",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944427,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "fd3d7f4a3b8895f443fc04254d508a45",
+            "id": "fd3d7f4a3b8895f443fc04254d508a45",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944428,
+            "updatedAt": 1604652433412,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.72",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944430,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "f42c20006c6ff52b45941a4c8d30575c",
+            "id": "f42c20006c6ff52b45941a4c8d30575c",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944431,
+            "updatedAt": 1604652433415,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "Moloch_1_7": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "Moloch",
+                            "predicate": "Uploading",
+                            "value": "1 pcap(s)"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "33c_vpa",
+            "data": "ftp://ftp.33c.rcm:21/pcaps/10022/1604651750_2020_11_06____11_35_50_634768.pcap",
+            "dataType": "url_pcap",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944431,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "c40c3c44241ee3a132d734e7cb326bd1",
+            "id": "c40c3c44241ee3a132d734e7cb326bd1",
+            "ioc": false,
+            "_version": 3,
+            "startDate": 1604651944431,
+            "updatedAt": 1604652433415,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.130.95",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944428,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "b78876bb385572e73f6ffdf5c73c1d5c",
+            "id": "b78876bb385572e73f6ffdf5c73c1d5c",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944429,
+            "updatedAt": 1604652433409,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.171",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944427,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "a1aa0a4c60b5fcefe3b34beddc5897e8",
+            "id": "a1aa0a4c60b5fcefe3b34beddc5897e8",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944428,
+            "updatedAt": 1604652433413,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.71",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944426,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "8c58181b9cd90886d76b98343c33cfc4",
+            "id": "8c58181b9cd90886d76b98343c33cfc4",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944427,
+            "updatedAt": 1604652433411,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Украина "
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "IP",
+                            "value": "NotFound"
+                        }
+                    ]
+                },
+                "AbuseIPDB_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "AbuseIPDB",
+                            "predicate": "Records",
+                            "value": 0
+                        }
+                    ]
+                },
+                "MISP_2_1": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "MISP",
+                            "predicate": "Search",
+                            "value": "0 events"
+                        }
+                    ]
+                },
+                "Malwares_GetReport_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "Malwares",
+                            "predicate": "Score",
+                            "value": "No info"
+                        }
+                    ]
+                },
+                "Robtex_Reverse_PDNS_Query_1_0": {
+                    "taxonomies": []
+                },
+                "URLhaus_2_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "URLhaus",
+                            "predicate": "Search",
+                            "value": "No results"
+                        }
+                    ]
+                },
+                "Robtex_IP_Query_1_0": {},
+                "Threatcrowd_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "Threatcrowd",
+                            "predicate": "votes",
+                            "value": "None"
+                        }
+                    ]
+                },
+                "MaxMind_GeoIP_4_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "MaxMind",
+                            "predicate": "Location",
+                            "value": "Ukraine/Europe"
+                        }
+                    ]
+                },
+                "Urlscan_io_Search_0_1_1": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "urlscan.io",
+                            "predicate": "Search",
+                            "value": "0 result"
+                        }
+                    ]
+                },
+                "VirusTotal_GetReport_3_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "VT",
+                            "predicate": "GetReport",
+                            "value": "0 detected_url(s)"
+                        }
+                    ]
+                },
+                "Pulsedive_GetIndicator_1_0": {
+                    "taxonomies": []
+                },
+                "NCCCI_RVISION_1_0": {},
+                "Maltiverse_Report_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "Maltiverse",
+                            "predicate": "Report",
+                            "value": "-"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "33c_vpa",
+            "data": "213.200.42.2",
+            "dataType": "ip",
+            "_type": "case_artifact",
+            "sighted": true,
+            "message": "bruteforce",
+            "tags": [
+                "src:SnortAlert",
+                "brut"
+            ],
+            "createdAt": 1604651944426,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "81aa89b3cd7a3b912868d93d91042062",
+            "id": "81aa89b3cd7a3b912868d93d91042062",
+            "ioc": true,
+            "_version": 22,
+            "startDate": 1604651944427,
+            "updatedAt": 1604652433411,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.131.246",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944427,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "7f85fa32f25594909b5f6d331c9285d0",
+            "id": "7f85fa32f25594909b5f6d331c9285d0",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944427,
+            "updatedAt": 1604652433411,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.173",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944429,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "7377119a4d44d65f1e2bd189fce1a8e4",
+            "id": "7377119a4d44d65f1e2bd189fce1a8e4",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944429,
+            "updatedAt": 1604652433413,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.130.11",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944429,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "43792bdb898e51e191b484a1bfdec751",
+            "id": "43792bdb898e51e191b484a1bfdec751",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944430,
+            "updatedAt": 1604652433410,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {},
+            "data": "ftp://ftp.33c.rcm:21/pcaps/10022/1604652164_2020_11_06____11_42_44_088040.pcap",
+            "dataType": "url_pcap",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604652432389,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "4045aab788e3a43b2c3ca1755c2e7af1",
+            "id": "4045aab788e3a43b2c3ca1755c2e7af1",
+            "ioc": false,
+            "_version": 1,
+            "startDate": 1604652432390,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.163",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944428,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "3415a0e29fc85ad435ec6d5d04ae93e0",
+            "id": "3415a0e29fc85ad435ec6d5d04ae93e0",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944428,
+            "updatedAt": 1604652433415,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.130.111",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944429,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "3353c0a47a0373ba329ab462a378f6b2",
+            "id": "3353c0a47a0373ba329ab462a378f6b2",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944430,
+            "updatedAt": 1604652433409,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "zpmSig",
+                            "predicate": "Precision",
+                            "value": "78 %"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "33c_vpa",
+            "data": "2025855, 2018131, 97000022",
+            "dataType": "snort_sid",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "classtype:attempted-recon",
+                " classtype:trojan-activity",
+                " ATs:sid=center_sid",
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944431,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "15820e85468be6fc7f8709468f1e1e9d",
+            "id": "15820e85468be6fc7f8709468f1e1e9d",
+            "ioc": false,
+            "_version": 3,
+            "startDate": 1604651944431,
+            "updatedAt": 1604652433413,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.79",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944426,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "10da6a85d65bd01d60211a5a6d0833b5",
+            "id": "10da6a85d65bd01d60211a5a6d0833b5",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944427,
+            "updatedAt": 1604652433410,
+            "status": "Ok"
+        },
+        {
+            "_routing": "-Z61nHUB2Uh4lTjhgY_0",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.136.82",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604651944430,
+            "_parent": "-Z61nHUB2Uh4lTjhgY_0",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "055444765d73bc1fd8c08b31645910f7",
+            "id": "055444765d73bc1fd8c08b31645910f7",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604651944431,
+            "updatedAt": 1604652433413,
+            "status": "Ok"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+
+--Отключение строгой проверки в mysql
+http://192.168.10.45/phpmyadmin
+пользователь root пароль !&njrvj^nfr)+mysql
+SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY',''));
+SET SESSION sql_mode=(SELECT REPLACE(@@sql_mode, 'ONLY_FULL_GROUP_BY',''))

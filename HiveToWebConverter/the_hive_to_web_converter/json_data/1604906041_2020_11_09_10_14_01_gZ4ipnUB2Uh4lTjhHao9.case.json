@@ -1,0 +1,368 @@
+{
+    "Case": {
+        "rootId": "gZ4ipnUB2Uh4lTjhHao9",
+        "requestId": "e8cf0fd706f9908c:3d0d9669:17598dc8935:-8000:125301",
+        "details": {
+            "summary": "Безуспешные попытки залить shell и php-скрипты.",
+            "resolutionStatus": "TruePositive",
+            "customFields": {
+                "eventNumber": {
+                    "number": null,
+                    "order": 2
+                },
+                "booleanField": {
+                    "boolean": true,
+                    "order": 0
+                },
+                "innerLetter": {
+                    "string": null,
+                    "order": 4
+                },
+                "classAttack": {
+                    "string": "Another",
+                    "order": 1
+                },
+                "businessImpact": {
+                    "string": "HIGH",
+                    "order": 1
+                },
+                "occurDate": {
+                    "date": 1604757817000,
+                    "order": 2
+                },
+                "cvss": {
+                    "number": 9,
+                    "order": 3
+                },
+                "externalLetter": {
+                    "string": null,
+                    "order": 3
+                }
+            },
+            "metrics": {},
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        },
+        "operation": "Update",
+        "objectId": "gZ4ipnUB2Uh4lTjhHao9",
+        "startDate": 1604906041136,
+        "objectType": "case",
+        "base": true,
+        "object": {
+            "flag": false,
+            "endDate": 1604906040295,
+            "customFields": {
+                "eventNumber": {
+                    "number": null,
+                    "order": 2
+                },
+                "booleanField": {
+                    "boolean": true,
+                    "order": 0
+                },
+                "innerLetter": {
+                    "string": null,
+                    "order": 4
+                },
+                "classAttack": {
+                    "string": "Another",
+                    "order": 1
+                },
+                "businessImpact": {
+                    "string": "HIGH",
+                    "order": 1
+                },
+                "occurDate": {
+                    "date": 1604757817000,
+                    "order": 2
+                },
+                "cvss": {
+                    "number": 9,
+                    "order": 3
+                },
+                "externalLetter": {
+                    "string": null,
+                    "order": 3
+                }
+            },
+            "description": "## Данная задача создана автоматически\n\n Причина: Большое количество сигнатур\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201107-14779)\n\n Время начала: 2020-11-07 16:37:46\n\n Время окончания: 2020-11-07 16:38:45\n\n Продолжительность воздействий: 0:00:59\n\n 2019137: ET WEB_SPECIFIC_APPS Possible WP CuckooTap Arbitrary File Download\n\n 41421: SERVER-WEBAPP WordPress wp-config.php access via directory traversal attempt\n\n 2020221: ET WEB_SPECIFIC_APPS WP Generic revslider Arbitrary File Download\n\n 41420: SERVER-WEBAPP WordPress wp-config.php access via directory traversal attempt\n\n 2013464: ET WEB_SPECIFIC_APPS WordPress UnGallery pic Parameter Local File Inclusion Attempt\n\n 2011768: ET WEB_SERVER PHP tags in HTTP POST\n\n 34194: SERVER-WEBAPP RevSlider information disclosure attempt\n\n IP из домашней подсети: 95.173.128.109\n\n IP из внешней подсети: 68.183.101.85\n  \n#### Merged with alert #TSK-MSK-999-ZPM-20201108-14829 Большое количество сигнатур с 68.183.101.85\n\n## Данная задача создана автоматически\n\n Причина: Большое количество сигнатур\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201108-14829)\n\n Время начала: 2020-11-08 22:38:49\n\n Время окончания: 2020-11-08 22:39:00\n\n Продолжительность воздействий: 0:00:11\n\n 2019137: ET WEB_SPECIFIC_APPS Possible WP CuckooTap Arbitrary File Download\n\n 41421: SERVER-WEBAPP WordPress wp-config.php access via directory traversal attempt\n\n 2020221: ET WEB_SPECIFIC_APPS WP Generic revslider Arbitrary File Download\n\n 41497: SERVER-WEBAPP WordPress get_post authentication bypass attempt\n\n 41420: SERVER-WEBAPP WordPress wp-config.php access via directory traversal attempt\n\n 2013464: ET WEB_SPECIFIC_APPS WordPress UnGallery pic Parameter Local File Inclusion Attempt\n\n 2011768: ET WEB_SERVER PHP tags in HTTP POST\n\n 34194: SERVER-WEBAPP RevSlider information disclosure attempt\n\n IP из домашней подсети: 95.173.128.90\n\n IP из внешней подсети: 68.183.101.85",
+            "title": "Большое количество сигнатур с 68.183.101.85, безуспешные попытки залить shell и php-скрипты.",
+            "createdAt": 1604810054623,
+            "_parent": null,
+            "caseId": 2125,
+            "id": "gZ4ipnUB2Uh4lTjhHao9",
+            "_version": 7,
+            "pap": 2,
+            "updatedAt": 1604906040295,
+            "severity": 2,
+            "owner": "11c_rin",
+            "summary": "Безуспешные попытки залить shell и php-скрипты.",
+            "_routing": "gZ4ipnUB2Uh4lTjhHao9",
+            "updatedBy": "33c_fds",
+            "_type": "case",
+            "tags": [
+                "ATs:sensor=10022",
+                "ATs:reason=Большое количество сигнатур",
+                "ATs:classtype:web-application-attack"
+            ],
+            "resolutionStatus": "TruePositive",
+            "createdBy": "11c_rin",
+            "tlp": 1,
+            "metrics": {},
+            "_id": "gZ4ipnUB2Uh4lTjhHao9",
+            "startDate": 1604757817000,
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        }
+    },
+    "Artifact": [
+        {
+            "_routing": "gZ4ipnUB2Uh4lTjhHao9",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия , ГосСОПКА"
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "offline"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "33c_vpa",
+            "data": "1002:95.173.128.109",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "ip-адрес из домашней подсети",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604810057027,
+            "_parent": "gZ4ipnUB2Uh4lTjhHao9",
+            "createdBy": "11c_rin",
+            "tlp": 2,
+            "_id": "9e897ceaa48ed8fb674f6444f76aa272",
+            "id": "9e897ceaa48ed8fb674f6444f76aa272",
+            "ioc": false,
+            "_version": 5,
+            "startDate": 1604810057027,
+            "updatedAt": 1604810100829,
+            "status": "Ok"
+        },
+        {
+            "_routing": "gZ4ipnUB2Uh4lTjhHao9",
+            "reports": {
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "malicious",
+                            "namespace": "zpmSig",
+                            "predicate": "Precision",
+                            "value": "94 %"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "33c_vpa",
+            "data": "2019137, 41421, 2020221, 41420, 2013464, 2011768, 34194",
+            "dataType": "snort_sid",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "classtype:web-application-attack",
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604810057027,
+            "_parent": "gZ4ipnUB2Uh4lTjhHao9",
+            "createdBy": "11c_rin",
+            "tlp": 2,
+            "_id": "85836a15d9407c3d3d34f7026ea17014",
+            "id": "85836a15d9407c3d3d34f7026ea17014",
+            "ioc": false,
+            "_version": 3,
+            "startDate": 1604810057027,
+            "updatedAt": 1604810100827,
+            "status": "Ok"
+        },
+        {
+            "_routing": "gZ4ipnUB2Uh4lTjhHao9",
+            "reports": {},
+            "data": "ftp://ftp.33c.rcm:21/pcaps/10022/1604809908_2020_11_08____07_31_48_300720.pcap",
+            "dataType": "url_pcap",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604810100777,
+            "_parent": "gZ4ipnUB2Uh4lTjhHao9",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "764944737224827463272f9a9c9b7338",
+            "id": "764944737224827463272f9a9c9b7338",
+            "ioc": false,
+            "_version": 1,
+            "startDate": 1604810100778,
+            "status": "Ok"
+        },
+        {
+            "_routing": "gZ4ipnUB2Uh4lTjhHao9",
+            "reports": {},
+            "data": "1002:95.173.128.90",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "ip-адрес из домашней подсети",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604896499712,
+            "_parent": "gZ4ipnUB2Uh4lTjhHao9",
+            "createdBy": "11c_rin",
+            "tlp": 2,
+            "_id": "73a07b60d56fabe5c3dccb81169eb2a3",
+            "id": "73a07b60d56fabe5c3dccb81169eb2a3",
+            "ioc": false,
+            "_version": 1,
+            "startDate": 1604896499712,
+            "status": "Ok"
+        },
+        {
+            "_routing": "gZ4ipnUB2Uh4lTjhHao9",
+            "reports": {},
+            "data": "2019137, 41421, 2020221, 41497, 41420, 2013464, 2011768, 34194",
+            "dataType": "snort_sid",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "classtype:web-application-attack",
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604896499712,
+            "_parent": "gZ4ipnUB2Uh4lTjhHao9",
+            "createdBy": "11c_rin",
+            "tlp": 2,
+            "_id": "7242d672b1995bd9f9680e1420abd57a",
+            "id": "7242d672b1995bd9f9680e1420abd57a",
+            "ioc": false,
+            "_version": 1,
+            "startDate": 1604896499712,
+            "status": "Ok"
+        },
+        {
+            "_routing": "gZ4ipnUB2Uh4lTjhHao9",
+            "reports": {
+                "Threatcrowd_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "Threatcrowd",
+                            "predicate": "votes",
+                            "value": 0
+                        }
+                    ]
+                },
+                "MaxMind_GeoIP_4_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "MaxMind",
+                            "predicate": "Location",
+                            "value": "United States/North America"
+                        }
+                    ]
+                },
+                "OTXQuery_2_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "OTX",
+                            "predicate": "Pulses",
+                            "value": "11"
+                        }
+                    ]
+                },
+                "Urlscan_io_Search_0_1_1": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "urlscan.io",
+                            "predicate": "Search",
+                            "value": "3 results"
+                        }
+                    ]
+                },
+                "VirusTotal_GetReport_3_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "VT",
+                            "predicate": "GetReport",
+                            "value": "3 detected_url(s)"
+                        }
+                    ]
+                },
+                "Pulsedive_GetIndicator_1_0": {
+                    "taxonomies": []
+                },
+                "NCCCI_RVISION_1_0": {},
+                "Malwares_GetReport_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "Malwares",
+                            "predicate": "Score",
+                            "value": "2 results"
+                        }
+                    ]
+                },
+                "Maltiverse_Report_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "Maltiverse",
+                            "predicate": "Report",
+                            "value": "-"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "11c_rin",
+            "data": "68.183.101.85",
+            "dataType": "ip",
+            "_type": "case_artifact",
+            "sighted": true,
+            "message": "внешний ip-адрес",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604810057027,
+            "_parent": "gZ4ipnUB2Uh4lTjhHao9",
+            "createdBy": "11c_rin",
+            "tlp": 2,
+            "_id": "595b309ba6e666971cb6aff0019c1e99",
+            "id": "595b309ba6e666971cb6aff0019c1e99",
+            "ioc": true,
+            "_version": 12,
+            "startDate": 1604810057027,
+            "updatedAt": 1604896500058,
+            "status": "Ok"
+        }
+    ]
+}

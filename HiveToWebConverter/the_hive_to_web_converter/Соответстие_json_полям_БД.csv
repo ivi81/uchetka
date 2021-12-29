@@ -1,0 +1,36 @@
+incident_chief_tables,,CASE
+id,номер карточки инцидента,
+date_time_incident_start,дата конца,CASE.object.startDate
+date_time_incident_end,дата начала,CASE.object.endDate
+date_time_create,дата создания,CASE.object.createdAt
+ip_src,ip-источник,If CASE.Artifact[*].dataType=ip CASE.Artifact[*].data
+count_impact,количество воздействий с каждого IP-адреса,Можно ставить 0
+ip_dst,ip-назначения,If CASE.Artifact[*].dataType=ip_home CASE.Artifact[*].data
+type_attack,"тип компьютерной атаки (в числовом виде, расшифровка в файле setup_site.xml)",
+country,код страны,Подгружаем из MaxMind
+,,
+,,
+incident_additional_tables,,
+id,номер карточки инцидента,
+login_name,логин дежурного (в нашем случае пусть будет the_hive),CASE.object.owner
+availability_host,доступность информационного ресурса,?
+direction_attack,направление компьютерной атаки (число 1 или 2),
+solution,Решение дежурного (Письмо в ЦИБ или что-то еще),Подготовлено письмо и т. д. Можно NULL
+number_mail_in_CIB,Номер письма в ЦИБ,я так понимаю это CASE.metrics но можно и NULL
+number_mail_in_organization,Номер письма в стороннюю организацию,я так понимаю это CASE.metrics но можно и NULL
+space_safe,место хранения трафика (В нашем случае Case № ),CASE.object.caseId +                     If CASE.Artifact[*].dataType=url_pcap CASE.Artifact[*].data 
+explanation,Пояснение дежурного,
+,,
+incident_number_signature_tables,,
+id,номер карточки инцидента,
+sid,номер сигнатуры,If CASE.Artifact[*].dataType=snort_sid CASE.Artifact[*].data
+count,количество срабатываний,Если что то просто ставим «0»
+,,
+,,
+incident_analyst_tables,,
+id,номер карточки инцидента,
+login_name,логин аналитика,CASE.object.updatedBy
+true_false,компьютерная атака или нет и пометка - нет трафика ,CASE.resolutionStatus + CASE.impactStatus
+count_alert_analyst,количество срабатываний,Можно ставить 0
+information_analyst,информация аналитика,CASE.object.Title + CASE.object.summary
+date_time_analyst,время анализа компьютерного воздействия,CASE.object.updatedAt

@@ -1,0 +1,447 @@
+{
+    "Case": {
+        "rootId": "uZ56nXUB2Uh4lTjhgZke",
+        "requestId": "e8cf0fd706f9908c:3d0d9669:17598dc8935:-8000:125018",
+        "details": {
+            "summary": " url-bruteforce",
+            "resolutionStatus": "TruePositive",
+            "customFields": {
+                "eventNumber": {
+                    "number": null,
+                    "order": 2
+                },
+                "typeAttack": {
+                    "string": null,
+                    "order": 1
+                },
+                "booleanField": {
+                    "boolean": true,
+                    "order": 0
+                },
+                "innerLetter": {
+                    "string": null,
+                    "order": 4
+                },
+                "businessImpact": {
+                    "string": "HIGH",
+                    "order": 1
+                },
+                "occurDate": {
+                    "date": 1604656404000,
+                    "order": 2
+                },
+                "cvss": {
+                    "number": 9,
+                    "order": 3
+                },
+                "externalLetter": {
+                    "string": null,
+                    "order": 3
+                }
+            },
+            "metrics": {},
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        },
+        "operation": "Update",
+        "objectId": "uZ56nXUB2Uh4lTjhgZke",
+        "startDate": 1604905938675,
+        "objectType": "case",
+        "base": true,
+        "object": {
+            "flag": false,
+            "endDate": 1604905937918,
+            "customFields": {
+                "eventNumber": {
+                    "number": null,
+                    "order": 2
+                },
+                "typeAttack": {
+                    "string": null,
+                    "order": 1
+                },
+                "booleanField": {
+                    "boolean": true,
+                    "order": 0
+                },
+                "innerLetter": {
+                    "string": null,
+                    "order": 4
+                },
+                "businessImpact": {
+                    "string": "HIGH",
+                    "order": 1
+                },
+                "occurDate": {
+                    "date": 1604656404000,
+                    "order": 2
+                },
+                "cvss": {
+                    "number": 9,
+                    "order": 3
+                },
+                "externalLetter": {
+                    "string": null,
+                    "order": 3
+                }
+            },
+            "description": "## Данная задача создана автоматически\n\n Причина: Атака обнаружена с помощью нейросети\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201106-14740)\n\n Время начала: 2020-11-05 23:17:26\n\n Время окончания: 2020-11-05 23:17:26\n\n Продолжительность воздействий: 0:00:00\n\n 46316: SERVER-WEBAPP Drupal 8 remote code execution attempt\n\n 2022268: ET EXPLOIT Joomla RCE M3 (Serialized PHP in XFF)\n\n 2027416: ET WEB_SPECIFIC_APPS ECSHOP user.php SQL INJECTION via Referer\n\n 37078: SERVER-WEBAPP Joomla JDatabaseDriverMysqli unserialize code execution attempt\n\n IP из домашней подсети: 213.24.76.20\n\n IP из внешней подсети: 140.143.16.138\n  \n#### Merged with alert #TSK-MSK-999-ZPM-20201107-14793 Большое количество сигнатур, Обнаружен trojan с 140.143.16.138\n\n## Данная задача создана автоматически\n\n Причина: Большое количество сигнатур, Обнаружен trojan\n\n [Ссылка на карточку инцидента в ZSIEM](http://10.26.0.31:3000/tasks/card/TSK-MSK-999-ZPM-20201107-14793)\n\n Время начала: 2020-11-07 23:18:24\n\n Время окончания: 2020-11-07 23:24:42\n\n Продолжительность воздействий: 0:06:18\n\n 2019526: ET WEB_SERVER WEB-PHP phpinfo access\n\n 51620: SERVER-WEBAPP vBulletin pre-authenticated command injection attempt\n\n 45749: SERVER-WEBAPP PHPUnit PHP remote code execution attempt\n\n 2016978: ET WEB_SERVER safe_mode PHP config option in uri\n\n 2016977: ET WEB_SERVER allow_url_include PHP config option in uri\n\n 2030667: ET WEB_SPECIFIC_APPS vBulletin RCE Inbound (CVE-2019-16759 Bypass)\n\n 2016980: ET WEB_SERVER disable_functions PHP config option in uri\n\n 2016981: ET WEB_SERVER open_basedir PHP config option in uri\n\n 2026731: ET WEB_SERVER ThinkPHP RCE Exploitation Attempt\n\n 2014704: ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability\n\n 2016979: ET WEB_SERVER suhosin.simulation PHP config option in uri\n\n 54768: SERVER-WEBAPP vBulletin template rendering arbitrary PHP code execution attempt\n\n IP из домашней подсети: 95.173.136.78\n\n IP из внешней подсети: 140.143.16.138",
+            "title": "Атака обнаружена с помощью нейросети с 140.143.16.138, url-bruteforce",
+            "createdAt": 1604664851774,
+            "_parent": null,
+            "caseId": 2093,
+            "id": "uZ56nXUB2Uh4lTjhgZke",
+            "_version": 7,
+            "pap": 2,
+            "updatedAt": 1604905937918,
+            "severity": 2,
+            "owner": "11c_mis",
+            "summary": " url-bruteforce",
+            "_routing": "uZ56nXUB2Uh4lTjhgZke",
+            "updatedBy": "33c_fds",
+            "_type": "case",
+            "tags": [
+                "ATs:sensor=1030",
+                "ATs:reason=Атака обнаружена с помощью нейросети",
+                "ATs:classtype:attempted-admin",
+                "ATs:classtype:web-application-attack",
+                "ATs:classtype:attempted-user",
+                "ATs:sensor=10022",
+                "ATs:reason=Большое количество сигнатур",
+                "ATs:reason=Обнаружен trojan",
+                "ATs:classtype:successful-recon-limited",
+                "ATs:classtype:trojan-activity"
+            ],
+            "resolutionStatus": "TruePositive",
+            "createdBy": "11c_mis",
+            "tlp": 1,
+            "metrics": {},
+            "_id": "uZ56nXUB2Uh4lTjhgZke",
+            "startDate": 1604656404000,
+            "impactStatus": "NoImpact",
+            "status": "Resolved"
+        }
+    },
+    "Artifact": [
+        {
+            "_routing": "uZ56nXUB2Uh4lTjhgZke",
+            "reports": {
+                "Moloch_1_7": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "Moloch",
+                            "predicate": "Uploading",
+                            "value": "1 pcap(s)"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "11c_rin",
+            "data": "ftp://ftp.33c.rcm:21/pcaps/1030/1604664873_2020_11_06____15_14_33_002080.pcap",
+            "dataType": "url_pcap",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604664890124,
+            "_parent": "uZ56nXUB2Uh4lTjhgZke",
+            "createdBy": "33c_vpa",
+            "tlp": 2,
+            "_id": "ef79d88e708bb057274b7afb9c56cff7",
+            "id": "ef79d88e708bb057274b7afb9c56cff7",
+            "ioc": false,
+            "_version": 3,
+            "startDate": 1604664890124,
+            "updatedAt": 1604773859323,
+            "status": "Ok"
+        },
+        {
+            "_routing": "uZ56nXUB2Uh4lTjhgZke",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Россия "
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "Status",
+                            "value": "online"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {}
+            },
+            "updatedBy": "11c_rin",
+            "data": "1030:213.24.76.20",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "ip-адрес из домашней подсети",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604664854809,
+            "_parent": "uZ56nXUB2Uh4lTjhgZke",
+            "createdBy": "11c_mis",
+            "tlp": 2,
+            "_id": "e4a58023972f7382816d678f78eb743e",
+            "id": "e4a58023972f7382816d678f78eb743e",
+            "ioc": false,
+            "_version": 8,
+            "startDate": 1604664854809,
+            "updatedAt": 1604773784677,
+            "status": "Ok"
+        },
+        {
+            "_routing": "uZ56nXUB2Uh4lTjhgZke",
+            "reports": {},
+            "data": "1002:95.173.136.78",
+            "dataType": "ip_home",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "ip-адрес из домашней подсети",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604810796676,
+            "_parent": "uZ56nXUB2Uh4lTjhgZke",
+            "createdBy": "11c_rin",
+            "tlp": 2,
+            "_id": "ad8916fa22b8f1ea4eb9a37c88fe86b2",
+            "id": "ad8916fa22b8f1ea4eb9a37c88fe86b2",
+            "ioc": false,
+            "_version": 1,
+            "startDate": 1604810796677,
+            "status": "Ok"
+        },
+        {
+            "_routing": "uZ56nXUB2Uh4lTjhgZke",
+            "reports": {},
+            "data": "2019526, 51620, 45749, 2016978, 2016977, 2030667, 2016980, 2016981, 2026731, 2014704, 2016979, 54768",
+            "dataType": "snort_sid",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "classtype:web-application-attack",
+                " classtype:attempted-user",
+                " classtype:successful-recon-limited",
+                " classtype:trojan-activity",
+                " classtype:attempted-admin",
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604810796676,
+            "_parent": "uZ56nXUB2Uh4lTjhgZke",
+            "createdBy": "11c_rin",
+            "tlp": 2,
+            "_id": "9a41a7b4f5341a76ab50ecd5ae57e6fa",
+            "id": "9a41a7b4f5341a76ab50ecd5ae57e6fa",
+            "ioc": false,
+            "_version": 1,
+            "startDate": 1604810796677,
+            "status": "Ok"
+        },
+        {
+            "_routing": "uZ56nXUB2Uh4lTjhgZke",
+            "reports": {
+                "NCCCI_GeoIP_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "GeoIP",
+                            "predicate": "Country",
+                            "value": "Китай "
+                        }
+                    ]
+                },
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "ZPM_Sensor",
+                            "predicate": "IP",
+                            "value": "NotFound"
+                        }
+                    ]
+                },
+                "OTXQuery_2_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "OTX",
+                            "predicate": "Pulses",
+                            "value": "3"
+                        }
+                    ]
+                },
+                "AbuseIPDB_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "malicious",
+                            "namespace": "AbuseIPDB",
+                            "predicate": "Records",
+                            "value": 20
+                        }
+                    ]
+                },
+                "Robtex_Reverse_PDNS_Query_1_0": {
+                    "taxonomies": []
+                },
+                "Malwares_GetReport_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "Malwares",
+                            "predicate": "Score",
+                            "value": "2 results"
+                        }
+                    ]
+                },
+                "URLhaus_2_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "URLhaus",
+                            "predicate": "Search",
+                            "value": "No results"
+                        }
+                    ]
+                },
+                "Robtex_IP_Query_1_0": {
+                    "taxonomies": []
+                },
+                "Threatcrowd_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "Threatcrowd",
+                            "predicate": "votes",
+                            "value": "None"
+                        }
+                    ]
+                },
+                "MaxMind_GeoIP_4_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "MaxMind",
+                            "predicate": "Location",
+                            "value": "China/Asia"
+                        }
+                    ]
+                },
+                "Urlscan_io_Search_0_1_1": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "urlscan.io",
+                            "predicate": "Search",
+                            "value": "0 result"
+                        }
+                    ]
+                },
+                "VirusTotal_GetReport_3_0": {
+                    "taxonomies": [
+                        {
+                            "level": "suspicious",
+                            "namespace": "VT",
+                            "predicate": "GetReport",
+                            "value": "2 detected_url(s)"
+                        }
+                    ]
+                },
+                "Pulsedive_GetIndicator_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "info",
+                            "namespace": "Pulsedive",
+                            "predicate": "Risk",
+                            "value": "low"
+                        }
+                    ]
+                },
+                "NCCCI_RVISION_1_0": {},
+                "Maltiverse_Report_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "safe",
+                            "namespace": "Maltiverse",
+                            "predicate": "Report",
+                            "value": "-"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "11c_rin",
+            "data": "140.143.16.138",
+            "dataType": "ip",
+            "_type": "case_artifact",
+            "sighted": true,
+            "message": "внешний ip-адрес",
+            "tags": [
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604664854808,
+            "_parent": "uZ56nXUB2Uh4lTjhgZke",
+            "createdBy": "11c_mis",
+            "tlp": 2,
+            "_id": "94c49bcbf8331293af6e47ba63a81be8",
+            "id": "94c49bcbf8331293af6e47ba63a81be8",
+            "ioc": true,
+            "_version": 28,
+            "startDate": 1604664854809,
+            "updatedAt": 1604810797281,
+            "status": "Ok"
+        },
+        {
+            "_routing": "uZ56nXUB2Uh4lTjhgZke",
+            "reports": {
+                "ZPMSig_1_0": {
+                    "taxonomies": [
+                        {
+                            "level": "malicious",
+                            "namespace": "zpmSig",
+                            "predicate": "Precision",
+                            "value": "96 %"
+                        }
+                    ]
+                }
+            },
+            "updatedBy": "11c_rin",
+            "data": "46316, 2022268, 2027416, 37078",
+            "dataType": "snort_sid",
+            "_type": "case_artifact",
+            "sighted": false,
+            "message": "",
+            "tags": [
+                "classtype:attempted-user",
+                " classtype:web-application-attack",
+                " classtype:attempted-admin",
+                "src:SnortAlert"
+            ],
+            "createdAt": 1604664854809,
+            "_parent": "uZ56nXUB2Uh4lTjhgZke",
+            "createdBy": "11c_mis",
+            "tlp": 2,
+            "_id": "1da201109b955ff08b877aff8d1ab1a5",
+            "id": "1da201109b955ff08b877aff8d1ab1a5",
+            "ioc": false,
+            "_version": 4,
+            "startDate": 1604664854809,
+            "updatedAt": 1604773785771,
+            "status": "Ok"
+        }
+    ]
+}
