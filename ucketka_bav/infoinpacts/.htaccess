@@ -1,4 +1,0 @@
-AddDefaultCharset UTF-8
-#Запрешаем листинг директорий сайта
-Options -Indexes
-

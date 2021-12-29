@@ -1,8 +1,8 @@
 version: "3.1"
 services:
-  httpd:
+  uchetka_web:
     image: httpd:latest
-  db:
+  uchetka_db:
     image: mariadb:latest
   
   php:
