@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+  httpd:
+    image: httpd:latest
+  db:
+    image: mariadb:latest
+  
+  php:
+   image: php:latest
+  
+  hconverter:
+    build: HniveToWebConverter
+  
+  web:
+    build: ucketka_bav
