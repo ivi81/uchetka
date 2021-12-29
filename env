@@ -1,0 +1,3 @@
+mySQLPort=3306
+phpMyAdminPort=8081
+httpPort=80

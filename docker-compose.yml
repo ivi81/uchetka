@@ -3,20 +3,26 @@ version: '3.9'
 services:
   uchetka_web:
     image: php:7.2-apache
+    container_name: uchetka_we
     restart: unless-stopped
     ports:
       - 80:80
     volumes:
-      - ./infoinpacts:/var/www/html
+      - ./src/infoinpacts:/var/www/html
 
   db:
-    image: mysql:latest
-    restart: always
+    image: mysql:5.7
+    container_name: mysql
+    restart: unless-stopped
     environment: 
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: new_base
+      MYSQL_DATABASE: data_on_KA
+      MYSQL_USER: analyst_connect
+      MYSQL_PASSWORD: BG5&*VCYi12_
     ports:
       - 3306:3306
+    volumes:
+      - ./src/db:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -29,7 +35,4 @@ services:
       PMA_ARBITRARY: 1
     restart: unless-stopped
     ports:
-      - 8081:80
-volumes:
-
-  dbdata:
+      - 8080:80
