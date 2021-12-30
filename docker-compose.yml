@@ -1,6 +1,7 @@
 version: '3.1'
 
 services:
+#как настроить apach который находится в образе чтобы infoinpacts лежал в корне?
   uchetka_web:
     image: php:7.2-apache
     container_name: uchetka
@@ -12,6 +13,7 @@ services:
     volumes:
      - ./src/infoinpacts:/var/www/html
 
+#Все первичные настроки производятся каждый раз после down?
   db:
     image: mariadb
     container_name: mysql
@@ -39,6 +41,7 @@ services:
     ports:
       - 8080:80
 
+#Как установить необходиые библиотеки для python? Как запускать по таймеру
   hive_to_web_converter:
     image: python:3.6
     container_name: converter
