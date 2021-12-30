@@ -5,6 +5,6 @@
 #HiveToWebConverter/requirements.txt
 
 #как_отключить_строгую_проверку_в_mysql.txt
-#*.sql
+*.sql
 #*.zip
 #.gitignore

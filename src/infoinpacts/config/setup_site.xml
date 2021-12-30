@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<!ELEMENT <имя> (<дочерний_элемент>,<дочерний_элемент>) - это элемент может содержать только перечисленные элементы
+<!ELEMENT <имя> (#PCDATA | <дочерний_элемент>)* - этот элемент может содержать как элементы так и текстовые данные, * означает что элементы
+указанные в скобках могут использоваться несколько раз
+<!ELEMENT <имя> EMPTY - этот элемент ничего не содержит
+<!ELEMENT <имя> ANY - элемент может содержать любые элементы
+<!ATTLIST <имя_элемента> <имя_атрибута> CDATA #REQUIRED или #FIXED или #IMPLIED
+#REQUIRED (атрибут должен быть указан)
+#FIXED "далее фиксированное значение" (фиксированное значение атрибута)
+#IMPLIED (атрибут не обязателен)
+-->
+<!DOCTYPE setup [
+<!ELEMENT setup ANY>
+<!-- Ключевое слово ANY указывает что элемент setup может содержать любые элементы (не их всех перечислять) --><!ELEMENT accounts (users)+>
+<!ELEMENT users (CDATA)>
+<!ATTLIST users idaccout CDATA #REQUIRED>
+<!ATTLIST users login CDATA #REQUIRED>
+<!ELEMENT table_ip_address (ip_address)+>
+<!ELEMENT ip_address (#PCDATA)>
+<!ATTLIST ip_address domname CDATA #IMPLIED>
+<!ELEMENT list_ip (type_list_ip)+>
+<!ELEMENT type_list_ip (#PCDATA)>
+<!ATTLIST type_list_ip id_ka CDATA #IMPLIED>
+<!ELEMENT computer_attack (type_ka)+>
+<!ELEMENT type_ka (#PCDATA)>
+<!ATTLIST type_ka type_id CDATA #IMPLIED>
+<!ELEMENT server_code (code)+>
+<!-- знак + означает что такой элемент неоднократно повторяется --><!ELEMENT code (#PCDATA)>
+<!-- #PCDATA информирует что элемент code может содержать только текстовые данные, в нем не должно быть вложенных элементов --><!ATTLIST code num CDATA #REQUIRED>
+<!ATTLIST code status CDATA #IMPLIED>
+<!-- объявление атрибута num --><!ELEMENT code_KA (ip_address_i)+>
+<!ELEMENT num_code_KA (#PCDATA)>
+<!ATTLIST num_code_KA num_KA CDATA #IMPLIED>
+]>
+<setup>
+<!-- Учетные данные пользователей -->
+<!-- 
+10 - руководство
+20 - дежурный
+30 - аналитик
+-->
+	<accounts>
+<!-- руководство -->
+		<users idaccount="10" login="plyuxa" name="Плюха Сергей Александрович">2b078832d9041f23c991e2fed6a9c3c8</users>
+		<users idaccount="10" login="ershov" name="Ершов Сергей Васильевич">e4496b1dccd3357eb068a49d142be258</users>
+		<users idaccount="10" login="smyshlyaev" name="Смышляев Александр Борисович">76c6e1530d69f111c1c31c2afffd3384</users>
+<!-- дежурные -->
+		<users idaccount="20" login="marshalova" name="Маршалова Ирина Юрьевна">17b43774e0d91d699d7881579045ab06</users>
+<users idaccount="20" login="the_hive" name="the_hive">c9ab708bfadfa9c2a43b613739e435a1</users>
+		<users idaccount="20" login="zaikov1" name="Зайков Федор Сергеевич">8c257419a258f1f1643e33bbff9bd2c9</users>
+		<users idaccount="20" login="egorov1" name="Егоров Андрей Андреевич">48c9cb8a0ec3975a5b1be8df7c9e2ce1</users>
+		<users idaccount="20" login="lukashin1" name="Лукашин Евгений Александрович">8acfe796ca171678af93e8a003953543</users>
+		<users idaccount="20" login="pinyaskin1" name="Пиняскин Андрей Александрович">783ac8495c3fada07ec6ef41671202f9</users>
+		<users idaccount="20" login="monahov" name="Монахов Илья Сергеевич">b18a72de2341ddc2f4cb7d0f87500471</users>
+		<users idaccount="20" login="ryzhkov" name="Рыжков Илья Николаевич">5416d7cd6ef195a0f7622a9c56b55e84</users>
+		<users idaccount="20" login="sergeev" name="Сергеев Дмитрий Сергеевич">cded51f69c6a42e82f501e7f9b1c208c</users>
+		<users idaccount="20" login="trojan" name="Троян Александр Викторович">0552d7b134d32fb23db6eeb983c4ec92</users>
+		<users idaccount="20" login="chin" name="Чинков Сергей Валерьевич">bda5924e531c10be305678ef1cc855d3</users>
+		<users idaccount="20" login="polykov" name="Поляков Борис Михайлович">c99264244d2bbc30924e94ec17c37169</users>
+		<users idaccount="20" login="kovanko" name="Кованько Владимир Васильевич">fd160f4ad1bfc47f3718376088f4c47e</users>
+		<users idaccount="20" login="ippolitov1" name="Ипполитов Илья Владимирович">00061cb1cf37de12dd6aa1b832984484</users>
+		<users idaccount="20" login="artemiy1" name="Беляков Артемий Вячеславович">62709e0a11ee926dd50c5182b3a3a035</users>
+		<!-- аналитики -->
+		<users idaccount="30" login="the_hive1" name="the_hive1">55368b3ef02dacf00dd66b324d205b70</users>
+		<users idaccount="30" login="zaikov" name="Зайков Федор Сергеевич">8c257419a258f1f1643e33bbff9bd2c9</users>
+		<users idaccount="30" login="egorov" name="Егоров Андрей Андреевич">48c9cb8a0ec3975a5b1be8df7c9e2ce1</users>
+		<users idaccount="30" login="iryzhkov" name="Ведуший аналитик И.Н. Рыжков">5416d7cd6ef195a0f7622a9c56b55e84</users>
+		<users idaccount="30" login="kovanko1" name="Кованько Владимир Васильевич">b838145ff6fe5fba9f3fa7eca1dd5cb5</users>
+		<users idaccount="30" login="monahov1" name="Монахов Илья Сергеевич">b18a72de2341ddc2f4cb7d0f87500471</users>
+		<users idaccount="30" login="pinyaskin" name="Пиняскин Андрей Александрович">783ac8495c3fada07ec6ef41671202f9</users>
+		<users idaccount="30" login="trojan1" name="Троян Александр Викторович">e86fdc2283aff4717103f2d44d0610f7</users>
+		<users idaccount="30" login="polyakov1" name="Поляков Борис Михайлович">d357d11ffa427ae7e682c291347e01bd</users>
+		<users idaccount="30" login="chin1" name="Чинков Сергей Валерьевич">b992f89d90509b7e5defb77092821e65</users>
+		<users idaccount="30" login="sergeev1" name="Сергеев Дмитрий Сергеевич">c952c81384344498ed6ebf7c4a3e326b</users>
+		<users idaccount="30" login="artemiy" name="Беляков Артемий Вячеславович">62709e0a11ee926dd50c5182b3a3a035</users>
+		<users idaccount="30" login="vitaliy" name="Кожокарь Виталий Юрьевич">55b7059f44f87b9b1e193c9d5c9c721d</users>
+		<users idaccount="30" login="ippolitov" name="Ипполитов Илья Владимирович">00061cb1cf37de12dd6aa1b832984484</users>
+		<users idaccount="30" login="gantimurov" name="Гантимуров Александр Вячеславович">6ddeb8cf75552f5743d6711a6deaf208</users>
+		<users idaccount="30" login="gribkov" name="Грибков Артем Дмитриевич">361f00c783420a4b578e02b4959b5718</users>
+		<users idaccount="30" login="melnikov" name="Мельников Антон Сергеевич">a81264281f9b7edb51648c4af7650210</users>
+		<users idaccount="30" login="fetisov" name="Фетисов Сергей Сергеевич">2205012da5898edcc6bd13c74c0ab443</users>
+		<users idaccount="30" login="lukashin" name="Лукашин Евгений Александрович">8acfe796ca171678af93e8a003953543</users>
+<!-- администратор -->
+		<users idaccount="40" login="admin" name="администратор информационного ресурса">0e994ed7f185697c55b03829ed3d1ca2</users>
+	</accounts>
+<!-- IP-адреса выводимые в таблице на главную страницу сайта -->
+	<table_ip_address>
+		<ip_address domname="cikrf.ru" domfullname="Центральной избирательной комиссии Российской Федерации">91.222.157.5</ip_address>
+		<ip_address domname="gov.ru" domfullname="органов государственной власти Российской Федерации">95.173.128.90</ip_address>
+			<ip_address domname="award.gov.ru" domfullname="Государственных наград Российской Федерации">95.173.128.90</ip_address> 
+				<ip_address domname="munition.gov.ru" domfullname="Российского агентства по боеприпасам">95.173.128.90</ip_address>
+					<ip_address domname="svr.gov.ru" domfullname="Службы внешней разведки Российской Федерации">95.173.128.90</ip_address>
+		<ip_address domname="asozr.duma.gov.ru" domfullname="">95.173.130.15</ip_address>
+		<ip_address domname="ach.gov.ru" domfullname="Счетной палаты Российской Федерации">95.173.131.101</ip_address>
+		<ip_address domname="vsrf.ru" domfullname="Верховного суда Российской Федерации">95.173.131.170</ip_address>
+		<ip_address domname="fsvts.gov.ru" domfullname="Федеральной службы по военно-техническому сотрудничеству">95.173.131.246</ip_address>
+		<ip_address domname="council.gov.ru" domfullname="Совета Федерации Федерального Собрания Российской Федерации">95.173.132.73</ip_address>
+		<ip_address domname="petrovka38.ru" domfullname="">95.173.128.126</ip_address>
+		<ip_address domname="fsb.ru" domfullname="Федеральной службы безопасности Российской Федерации">213.24.76.23</ip_address>
+	<ip_address domname="uioord.fsb.ru" domfullname="Управления Информационного обеспечения оперативно-розыскной деятельности ФСБ России">213.24.76.12</ip_address>
+<ip_address domname="ps.fsb.ru" domfullname="Пограничной службы ФСБ России">213.24.76.20</ip_address>
+<ip_address domname="ntc.duma.gov.ru" domfullname="Информационно-поисковая система Закон">95.173.130.16</ip_address>
+<ip_address domname="economy.gov.ru" domfullname="Министерства экономического развития Российской Федерации">91.206.120.11</ip_address>
+<ip_address domname="adm.rkursk.ru" domfullname="Официального сайтаАдминистрации Курской области">77.241.31.7</ip_address>
+<ip_address domname="web.rkursk.ru" domfullname="Сервера органов власти Курской области">77.241.31.7</ip_address>
+<ip_address domname="smb.gov.ru" domfullname="Федеральный портал малого и среднего предпринимательства">91.206.121.102</ip_address>
+<ip_address domname="ais.economy.gov.ru" domfullname="АИС управления государственной поддержкой малого и среднего предпринимательства">91.206.121.106</ip_address>
+<ip_address domname="press.may9.ru" domfullname="Официального сайта медиаобеспечения празднования 70-летия Победы в Великой Отечественной войне">188.65.212.175</ip_address>
+<ip_address domname="may9.ru" domfullname="Официального сайта празднования 70-летия Победы в Великой Отечественной войне">188.65.212.175</ip_address>
+<ip_address domname="old_site.kremlin.ru" domfullname="Президента Российской Федерации">195.208.24.91</ip_address>
+<ip_address domname="tha.ved.gov.ru" domfullname="Трогового представительства Российской Федерации в Таиланде">91.206.121.124</ip_address>
+<ip_address domname="ved.gov.ru" domfullname="Портала внешнеэкономической информации">91.206.121.124</ip_address>
+<ip_address domname="svk.ved.gov.ru" domfullname="Портал торгового представительства Российской Федерации в Словакии">91.206.121.124</ip_address>
+<ip_address domname="aisup.economy.gov.ru" domfullname="Портал автоматизированной системы управления программами и проектами Минэкономразвития России">91.206.121.141</ip_address>
+<ip_address domname="nko.economy.gov.ru" domfullname="Портала единой автоматизированной информационной системы поддержки социально орентированных некоммерческих организаций">91.206.120.206</ip_address>
+<ip_address domname="Отдел_УФСБ_Обнинск" domfullname="IP-адрес для отдела_УФСБ_Обнинск">212.193.160.43</ip_address>
+<ip_address domname="dkb.gov.ru" domfullname="организации договора о коллективной безопасности">95.173.128.90</ip_address>
+<ip_address domname="kremlin.ru1" domfullname="Президента Российской Федерации">95.173.136.71</ip_address>
+<ip_address domname="kremlin.ru0" domfullname="Президента Российской Федерации">95.173.136.70</ip_address>
+<ip_address domname="kremlin.ru2" domfullname="Президента Российской Федерации">95.173.136.72</ip_address>
+<ip_address domname="government.ru0" domfullname="Правительства Российской Федерации">95.173.136.168</ip_address>
+<ip_address domname="government.ru1" domfullname="Правительства Российской Федерации">95.173.136.163</ip_address>
+<ip_address domname="government.ru2" domfullname="Правительства Российской Федерации">95.173.136.162</ip_address>
+<ip_address domname="premier.gov.ru1" domfullname="Председателя Правительства Российской Федерации Д.А. Медведева">95.173.136.162</ip_address>
+<ip_address domname="premier.gov.ru2" domfullname="Председателя Правительства Российской Федерации Д.А. Медведева">95.173.136.163</ip_address>
+<ip_address domname="premier.gov.ru0" domfullname="Председателя Правительства Российской Федерации Д.А. Медведева">95.173.136.168</ip_address>
+<ip_address domname="duma.gov.ru0" domfullname="Государственной Думы Федерального Собрания Российской Федерации">95.173.130.41</ip_address>
+<ip_address domname="duma.gov.ru1" domfullname="Государственной Думы Федерального Собрания Российской Федерации">95.173.130.42</ip_address>
+<ip_address domname="scrf.gov.ru" domfullname="Совета Безопасности Российской Федерации">95.173.135.142</ip_address>
+</table_ip_address>
+<!-- типы списков IP-адресов -->
+	<list_ip>
+		<type_list_ip type_id="100" type_info="список выходных серверов сети Tor">Tor(exit server)</type_list_ip>
+<type_list_ip type_id="101" type_info="список IP-адресов пользователей сети Tor">Tor(user)</type_list_ip>
+<type_list_ip type_id="102" type_info="список IP-адресов органов государственной власти">IP-адреса ОГВ</type_list_ip>
+<type_list_ip type_id="103" type_info="прозьба отдела К сообщать им все информацию о данных IP-адресах">Гонконг (для отдела К)</type_list_ip>
+<type_list_ip type_id="104" type_info="VPN сеть используемая для компьютерных атак">VPN network Terracotta</type_list_ip>
+<type_list_ip type_id="107" type_info="C&amp;amp;C ботсети poseidon">Botnet poseidon</type_list_ip>
+<type_list_ip type_id="108" type_info="C&amp;amp;C ботсети Gumblar">Botnet Gumblar</type_list_ip>
+<type_list_ip type_id="109" type_info="C&amp;amp;C ботсети Darkcomet">Botnet Darkcomet</type_list_ip>
+<type_list_ip type_id="110" type_info="тестовый список">TEsT</type_list_ip>
+</list_ip>
+<!-- Идентификаторы для типов компьютерных атак -->
+	<computer_attack>
+		<type_ka id_ka="1">Shell-код</type_ka>
+		<type_ka id_ka="2">DoS-атака</type_ka>
+		<type_ka id_ka="3">DDoS-атака</type_ka>
+		<type_ka id_ka="4">SQL-injection</type_ka>
+		<type_ka id_ka="5">Сканер портов</type_ka>
+		<type_ka id_ka="6">Сканер уязвимостей</type_ka>
+		<type_ka id_ka="7">Подбор пароля</type_ka>
+		<type_ka id_ka="8">Вирусное заражение</type_ka>
+		<type_ka id_ka="9">Exploit</type_ka>
+		<type_ka id_ka="10">Спам рассылка</type_ka>
+		<type_ka id_ka="11">URL-bruteforce</type_ka>
+		<type_ka id_ka="12">Directory traversal</type_ka>
+		<type_ka id_ka="13">CSRF</type_ka>
+		<type_ka id_ka="14">Компрометация сервера</type_ka>
+		<type_ka id_ka="15">Remote File Include</type_ka>
+		<type_ka id_ka="16">Local File Include</type_ka>
+		<type_ka id_ka="17">DoS Reflection attack</type_ka>
+		<type_ka id_ka="18">XSS (Cross Site Scripting)</type_ka>
+		<type_ka id_ka="19">ПСКР новое событие</type_ka>
+        <type_ka id_ka="20">ПСКР старое событие</type_ka>
+	</computer_attack>
+<!-- Сообщение по коду ответа сервера -->
+	<server_code>
+		<code num="100" status="информационный">Continue</code>
+		<code num="101" status="информационный">Switching Protocols</code>
+		<code num="200" status="успешная доставка">OK</code>
+		<code num="201" status="успешная доставка">Created</code>
+		<code num="202" status="успешная доставка">Accepted</code>
+		<code num="203" status="успешная доставка">Non-Authoritative Information</code>
+		<code num="204" status="успешная доставка">No Content</code>
+		<code num="205" status="успешная доставка">Reset Content</code>
+		<code num="206" status="успешная доставка">Partial Content</code>
+		<code num="300" status="переадресация">Multiple Choices</code>
+		<code num="301" status="переадресация">Moved Permanently</code>
+		<code num="302" status="переадресация">Moved Temporarily</code>
+		<code num="303" status="переадресация">See Other</code>
+		<code num="304" status="переадресация">Not Modified</code>
+		<code num="305" status="переадресация">Use Proxy</code>
+		<code num="400" status="ошибка клиента">Bad Request</code>
+		<code num="401" status="ошибка клиента">Unauthorized</code>
+		<code num="402" status="ошибка клиента">Payment Required</code>
+		<code num="403" status="ошибка клиента">Forbidden</code>
+		<code num="404" status="ошибка клиента">Not Found</code>
+		<code num="405" status="ошибка клиента">Method Not Allowed</code>
+		<code num="406" status="ошибка клиента">Not Acceptable</code>
+		<code num="407" status="ошибка клиента">Proxy Authentication Required</code>
+		<code num="408" status="ошибка клиента">Request Timeout</code>
+		<code num="409" status="ошибка клиента">Conflict</code>
+		<code num="410" status="ошибка клиента">Gone</code>
+		<code num="411" status="ошибка клиента">Length Required</code>
+		<code num="412" status="ошибка клиента">Precondition Failed</code>
+		<code num="413" status="ошибка клиента">Request Entity Too Large</code>
+		<code num="414" status="ошибка клиента">Request-URI Too Long</code>
+		<code num="415" status="ошибка клиента">Unsupported Media Type</code>
+		<code num="500" status="ошибка сервера">Internal Server Error</code>
+		<code num="501" status="ошибка сервера">Not Implemented</code>
+		<code num="502" status="ошибка сервера">Bad Gateway</code>
+		<code num="503" status="ошибка сервера">Service Unavailable</code>
+		<code num="504" status="ошибка сервера">Gateway Timeout</code>
+		<code num="505" status="ошибка сервера">HTTP Version Not Supported</code>
+	</server_code>
+<!-- Расшифровка видов компьютерных атак -->
+	<code_KA>
+		<num_code_KA num_KA="101">server (анонимайзер TOR)</num_code_KA>
+		<num_code_KA num_KA="102">client (анонимайзер TOR)</num_code_KA>
+		<num_code_KA num_KA="103">анонимайзеры (другие)</num_code_KA>
+		<num_code_KA num_KA="201">источник КА (DDoS)</num_code_KA>
+		<num_code_KA num_KA="202">источник КА (Scaner)</num_code_KA>
+		<num_code_KA num_KA="203">источник КА (SQLi)</num_code_KA>
+		<num_code_KA num_KA="204">источник КА (XXS)</num_code_KA>
+		<num_code_KA num_KA="205">источник КА (Brute force)</num_code_KA>
+		<num_code_KA num_KA="300">Bot-сеть</num_code_KA>
+		<num_code_KA num_KA="301">\"необычные\" IP-адреса</num_code_KA>
+	</code_KA>
+<!-- IP-адреса назначения требующие особого внимания --> 
+	<critical_ip_dst>
+		<c_ip_dst domname="kremlin.ru">195.208.24.91</c_ip_dst>
+		<c_ip_dst domname="fsb.ru">213.24.76.23</c_ip_dst>
+		<c_ip_dst domname="gov.ru, award.gov.ru, munition.gov.ru, svr.gov.ru">95.173.128.90</c_ip_dst>
+		<c_ip_dst domname="duma.gov.ru">95.173.130.2</c_ip_dst>
+		<c_ip_dst domname="government.ru">95.173.135.62</c_ip_dst>
+		<c_ip_dst domname="scrf.gov.ru">95.173.131.2</c_ip_dst>
+	</critical_ip_dst>
+</setup>
