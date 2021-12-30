@@ -1,17 +1,19 @@
-version: '3.9'
+version: '3.1'
 
 services:
   uchetka_web:
     image: php:7.2-apache
-    container_name: uchetka_we
+    container_name: uchetka
     restart: unless-stopped
     ports:
       - 80:80
+    depends_on:
+     - db
     volumes:
-      - ./src/infoinpacts:/var/www/html
+     - ./src/infoinpacts:/var/www/html
 
   db:
-    image: mysql:5.7
+    image: mariadb
     container_name: mysql
     restart: unless-stopped
     environment: 
@@ -36,3 +38,10 @@ services:
     restart: unless-stopped
     ports:
       - 8080:80
+
+  hive_to_web_converter:
+    image: python:3.6
+    container_name: converter
+    volumes:
+      -  ./src/converter/the_hive_to_web_converter:/opt/the_hive_to_web_converter
+        
