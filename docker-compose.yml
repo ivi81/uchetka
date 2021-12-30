@@ -44,4 +44,8 @@ services:
     container_name: converter
     volumes:
       -  ./src/converter/the_hive_to_web_converter:/opt/the_hive_to_web_converter
+    depends_on:
+      - db
+      - uchetka_web
+
         
